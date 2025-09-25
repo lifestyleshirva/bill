@@ -1,69 +1,40 @@
 import os
 import time
 import shutil
-from git import Repo
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
+import subprocess
+from datetime import datetime
 
-# === SETTINGS ===
-WATCH_FOLDER = r"D:\bill"                  # Billing software PDFs save ಆಗೋ folder
-LOCAL_REPO = r"C:\Repos\bill"              # Git repo location
-CLOUDFLARE_URL = "https://bill-4rh.pages.dev/"  # Cloudflare Pages site URL
+WATCH_FILE = r"D:\bill\bill.pdf"   # always same file from your software
+REPO_FOLDER = r"C:\Repos\bill"
+TARGET_FILE = os.path.join(REPO_FOLDER, "bill.pdf")
 
-# Git repo open ಮಾಡೋದು
-repo = Repo(LOCAL_REPO)
+def run(cmd):
+    result = subprocess.run(cmd, cwd=REPO_FOLDER, shell=True,
+                            capture_output=True, text=True)
+    if result.stdout.strip():
+        print(result.stdout.strip())
+    if result.stderr.strip():
+        print(result.stderr.strip())
 
-def handle_pdf(file_path):
-    filename = os.path.basename(file_path)
-    dest_path = os.path.join(LOCAL_REPO, filename)
+def push_changes():
+    run("git add bill.pdf")
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    run(f'git commit -m "Auto update bill.pdf at {ts}" || echo "No changes"')
+    run("git push origin main")
 
-    # Copy PDF to repo folder
-    shutil.copy2(file_path, dest_path)
-    print(f"Copied to repo: {dest_path}")
-
-    # Git operations
-    try:
-        repo.index.add([filename])
-        repo.index.commit(f"Add or update PDF: {filename}")
-        origin = repo.remote(name="origin")
-        print("Pushing to remote...")
-        origin.push()
-        print("Push finished.")
-    except Exception as e:
-        print("Error pushing:", e)
-
-    # Public Cloudflare URL
-    public_url = CLOUDFLARE_URL + filename
-    print(f"Public URL: {public_url}")
-
-    # Save to Generated_URLs.txt
-    with open(os.path.join(LOCAL_REPO, "Generated_URLs.txt"), "a") as f:
-        f.write(public_url + "\n")
-    print("Updated Generated_URLs.txt")
-
-# Watchdog event handler
-class PDFHandler(FileSystemEventHandler):
-    def on_created(self, event):
-        if not event.is_directory and event.src_path.endswith(".pdf"):
-            time.sleep(1)  # wait until file write completes
-            handle_pdf(event.src_path)
-
-    def on_modified(self, event):
-        if not event.is_directory and event.src_path.endswith(".pdf"):
-            time.sleep(1)
-            handle_pdf(event.src_path)
+def watch_file():
+    print(f"[{datetime.now()}] Watching: {WATCH_FILE}")
+    last_mtime = None
+    while True:
+        if os.path.exists(WATCH_FILE):
+            mtime = os.path.getmtime(WATCH_FILE)
+            if mtime != last_mtime:
+                last_mtime = mtime
+                print(f"[{datetime.now()}] Detected update in bill.pdf, pushing...")
+                shutil.copy2(WATCH_FILE, TARGET_FILE)
+                push_changes()
+                print(f"[{datetime.now()}] Public URL: https://bill-4rh.pages.dev/bill.pdf")
+        time.sleep(5)
 
 if __name__ == "__main__":
-    print(f"Watching folder: {WATCH_FOLDER}")
-    event_handler = PDFHandler()
-    observer = Observer()
-    observer.schedule(event_handler, WATCH_FOLDER, recursive=False)
-    observer.start()
-
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-    observer.join()
-
+    watch_file()
