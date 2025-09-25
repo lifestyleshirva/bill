@@ -4,9 +4,10 @@ import shutil
 import subprocess
 from datetime import datetime
 
-WATCH_FILE = r"D:\bill\bill.pdf"   # always same file from your software
-REPO_FOLDER = r"C:\Repos\bill"
-TARGET_FILE = os.path.join(REPO_FOLDER, "bill.pdf")
+# File paths
+WATCH_FILE = r"D:\bill\BILL.pdf"    # Your software always generates BILL.pdf here
+REPO_FOLDER = r"C:\Repos\bill"      # GitHub repo local clone
+TARGET_FILE = os.path.join(REPO_FOLDER, "BILL.pdf")
 
 def run(cmd):
     result = subprocess.run(cmd, cwd=REPO_FOLDER, shell=True,
@@ -17,9 +18,11 @@ def run(cmd):
         print(result.stderr.strip())
 
 def push_changes():
-    run("git add bill.pdf")
+    # Stage everything just in case
+    run("git add -A")
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    run(f'git commit -m "Auto update bill.pdf at {ts}" || echo "No changes"')
+    # Always commit, even if Git thinks nothing changed
+    run(f'git commit -m "Auto update BILL.pdf at {ts}" --allow-empty')
     run("git push origin main")
 
 def watch_file():
@@ -30,10 +33,10 @@ def watch_file():
             mtime = os.path.getmtime(WATCH_FILE)
             if mtime != last_mtime:
                 last_mtime = mtime
-                print(f"[{datetime.now()}] Detected update in bill.pdf, pushing...")
+                print(f"[{datetime.now()}] Detected update in BILL.pdf, pushing...")
                 shutil.copy2(WATCH_FILE, TARGET_FILE)
                 push_changes()
-                print(f"[{datetime.now()}] Public URL: https://bill-4rh.pages.dev/bill.pdf")
+                print(f"[{datetime.now()}] Public URL: https://bill-4rh.pages.dev/BILL.pdf")
         time.sleep(5)
 
 if __name__ == "__main__":
