@@ -5,16 +5,15 @@ import subprocess
 from datetime import datetime
 
 # Paths
-WATCH_FILE = r"D:\bill\BILL.pdf"       # Your billing software always saves here
+WATCH_FILE = r"D:\bill\BILL.pdf"       # Software creates here
 REPO_FOLDER = r"C:\Repos\bill"
 TARGET_FILE = os.path.join(REPO_FOLDER, "BILL.pdf")
 LOG_FILE = os.path.join(REPO_FOLDER, "log.txt")
 
-# Full git path (update if your "where git" shows different path)
+# Full git path
 GIT = r"C:\Program Files\Git\cmd\git.exe"
 
 def log(message):
-    """Write message to console and log.txt"""
     timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
     line = f"{timestamp} {message}"
     print(line)
@@ -31,11 +30,19 @@ def run(cmd):
         log(result.stderr.strip())
 
 def push_changes():
+    if os.path.exists(WATCH_FILE):
+        shutil.copy2(WATCH_FILE, TARGET_FILE)   # always copy fresh
+        log("Copied latest BILL.pdf into repo")
+    else:
+        log("⚠️ WATCH_FILE missing, cannot copy")
+        return
+
     run(f'"{GIT}" add -A')
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     run(f'"{GIT}" commit -m "Auto update BILL.pdf at {ts}" --allow-empty')
     run(f'"{GIT}" push origin main')
     log("✅ Last update successful")
+    log("Public URL: https://bill-4rh.pages.dev/BILL.pdf")
 
 def watch_file():
     log(f"Watching: {WATCH_FILE}")
@@ -46,9 +53,7 @@ def watch_file():
             if mtime != last_mtime:
                 last_mtime = mtime
                 log("Detected update in BILL.pdf, pushing...")
-                shutil.copy2(WATCH_FILE, TARGET_FILE)
                 push_changes()
-                log("Public URL: https://bill-4rh.pages.dev/BILL.pdf")
         time.sleep(5)
 
 if __name__ == "__main__":
