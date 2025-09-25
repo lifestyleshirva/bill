@@ -1,0 +1,4 @@
+Hello from Task Scheduler!
+[2025-09-25 17:25:20] Watching: D:\bill\BILL.pdf
+[2025-09-25 17:25:20] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:25:20] Running: "C:\Program Files\Git\cmd\git.exe" add -A
