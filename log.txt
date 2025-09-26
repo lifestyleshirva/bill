@@ -411,3 +411,20 @@ fatal: repository 'https://github.com/LIFESTYLE-SHIRVA/bill-4rh.git/' not found
 [2025-09-26 17:47:25] ✅ Extracted Bill Number: 03973
 [2025-09-26 17:47:25] ✅ Added Bill Number 03973 into bills.json
 [2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:47:25" --allow-empty
+[2025-09-26 17:47:25] [main 2abbc3c] Auto update BILL.pdf and bills.json at 2025-09-26 17:47:25
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+[2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:47:27] To https://github.com/lifestyleshirva/bill.git
+   e70f6e9..2abbc3c  main -> main
+[2025-09-26 17:47:27] ✅ Last update successful
+[2025-09-26 17:47:27] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:47:27] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:51:29] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:51:32] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:57:41] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:57:41] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:57:41] Copied latest BILL.pdf into repo
+[2025-09-26 17:57:41] ✅ Extracted Bill Data → No: 03979, Mobile: None, Amount: 450.00
+[2025-09-26 17:57:41] Error updating bills.json: 'bills'
+[2025-09-26 17:57:41] Running: "C:\Program Files\Git\cmd\git.exe" add -A
