@@ -1,7 +1,9 @@
 {
-  "validBills": [
-    "03977",
-    "03976",
-    "03973"
+  "bills": [
+    {
+      "billNo": "03981",
+      "mobile": null,
+      "amount": "50.00"
+    }
   ]
 }
