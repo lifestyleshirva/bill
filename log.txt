@@ -344,3 +344,20 @@ fatal: repository 'https://github.com/LIFESTYLE-SHIRVA/bill-4rh.git/' not found
 [2025-09-26 17:17:17] ✅ Extracted Bill Number: 03977
 [2025-09-26 17:17:17] Error updating bills.json: Expecting value: line 1 column 1 (char 0)
 [2025-09-26 17:17:17] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:17:18] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:17:18" --allow-empty
+[2025-09-26 17:17:18] [main 59d46c2] Auto update BILL.pdf and bills.json at 2025-09-26 17:17:18
+ 4 files changed, 28 insertions(+), 3 deletions(-)
+ delete mode 100644 hello.py
+ create mode 100644 test_read.py
+[2025-09-26 17:17:18] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:17:19] To https://github.com/lifestyleshirva/bill.git
+   0130862..59d46c2  main -> main
+[2025-09-26 17:17:19] ✅ Last update successful
+[2025-09-26 17:17:19] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:17:19] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:22:14] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:22:14] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:22:14] Copied latest BILL.pdf into repo
+[2025-09-26 17:22:14] ✅ Extracted Bill Number: 03977
+[2025-09-26 17:22:14] ✅ Added Bill Number 03977 into bills.json
+[2025-09-26 17:22:14] Running: "C:\Program Files\Git\cmd\git.exe" add -A
