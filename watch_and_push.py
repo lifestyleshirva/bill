@@ -65,7 +65,7 @@ def update_bills_json(bill_no):
                 json.dump(data, f, indent=2)
             log(f"✅ Added Bill Number {bill_no} into bills.json")
         else:
-            log("Bill already exists or invalid, not updating JSON")
+            log("ℹ️ Bill already exists or invalid, not updating JSON")
     except Exception as e:
         log(f"Error updating bills.json: {e}")
 
@@ -88,6 +88,7 @@ def push_changes():
     run(f'"{GIT}" push origin main')
     log("✅ Last update successful")
     log("Public URL: https://bill-4rh.pages.dev/BILL.pdf")
+    log("Public JSON: https://bill-4rh.pages.dev/bills.json")
 
 def watch_file():
     log(f"Watching: {WATCH_FILE}")

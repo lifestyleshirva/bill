@@ -330,3 +330,17 @@ fatal: repository 'https://github.com/LIFESTYLE-SHIRVA/bill-4rh.git/' not found
 [2025-09-26 17:07:21] Detected update in BILL.pdf, pushing...
 [2025-09-26 17:07:21] Copied latest BILL.pdf into repo
 [2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 17:07:21" --allow-empty
+[2025-09-26 17:07:21] [main 0130862] Auto update BILL.pdf at 2025-09-26 17:07:21
+ 3 files changed, 57 insertions(+), 1 deletion(-)
+[2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:07:23] To https://github.com/lifestyleshirva/bill.git
+   7e8baaf..0130862  main -> main
+[2025-09-26 17:07:23] ✅ Last update successful
+[2025-09-26 17:07:23] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:17:17] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:17:17] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:17:17] Copied latest BILL.pdf into repo
+[2025-09-26 17:17:17] ✅ Extracted Bill Number: 03977
+[2025-09-26 17:17:17] Error updating bills.json: Expecting value: line 1 column 1 (char 0)
+[2025-09-26 17:17:17] Running: "C:\Program Files\Git\cmd\git.exe" add -A
