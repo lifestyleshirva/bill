@@ -2,16 +2,16 @@ import os
 import time
 import shutil
 import subprocess
-import json
 import pdfplumber
 import re
+import json
 from datetime import datetime
 
 # Paths
-WATCH_FILE = r"D:\bill\BILL.pdf"
+WATCH_FILE = r"D:\bill\BILL.pdf"       # Software creates here
 REPO_FOLDER = r"C:\Repos\bill"
 TARGET_FILE = os.path.join(REPO_FOLDER, "BILL.pdf")
-BILLS_JSON = os.path.join(REPO_FOLDER, "bills.json")
+JSON_FILE = os.path.join(REPO_FOLDER, "bills.json")
 LOG_FILE = os.path.join(REPO_FOLDER, "log.txt")
 
 # Full git path
@@ -33,73 +33,83 @@ def run(cmd):
     if result.stderr.strip():
         log(result.stderr.strip())
 
-# ✅ Extract BillNo + Mobile + Net Amount
-def extract_bill_data(pdf_path):
+def extract_bill_data():
     try:
-        with pdfplumber.open(pdf_path) as pdf:
+        with pdfplumber.open(WATCH_FILE) as pdf:
             text = ""
             for page in pdf.pages:
-                text += page.extract_text() or ""
+                text += page.extract_text() + "\n"
 
-        # Bill No
-        bill_match = re.search(r"INV\s*NO[:\-]?\s*(\d+)", text, re.IGNORECASE)
-        bill_no = bill_match.group(1) if bill_match else None
+        # Extract Name
+        name_match = re.search(r"NAME:\s*([A-Za-z\s]+)", text, re.IGNORECASE)
+        name = name_match.group(1).strip() if name_match else None
 
-        # Mobile
-        mob_match = re.search(r"MOB[:\-]?\s*(\d{10})", text, re.IGNORECASE)
-        mobile = mob_match.group(1) if mob_match else None
+        # Extract Mobile
+        mobile_match = re.search(r"MOB:\s*([0-9]+)", text)
+        mobile = mobile_match.group(1) if mobile_match else None
 
-        # Net Amount (PAYABLE or TOTAL)
-        amt_match = re.search(r"PAYABLE\s*[₹` ]?\s*([\d,]+\.\d{2}|\d+)", text, re.IGNORECASE)
-        if not amt_match:
-            amt_match = re.search(r"TOTAL\s*[₹` ]?\s*([\d,]+\.\d{2}|\d+)", text, re.IGNORECASE)
-        amount = amt_match.group(1) if amt_match else None
+        # Extract Bill Number
+        bill_no_match = re.search(r"INV NO:\s*(\d+)", text)
+        bill_no = bill_no_match.group(1) if bill_no_match else None
 
-        log(f"✅ Extracted Bill Data → No: {bill_no}, Mobile: {mobile}, Amount: {amount}")
-        return {"billNo": bill_no, "mobile": mobile, "amount": amount}
+        # Extract Payable Amount
+        payable_match = re.search(r"PAYABLE\s+`?\s*([\d.]+)", text)
+        payable = payable_match.group(1) if payable_match else None
 
+        if bill_no:
+            log(f"✅ Extracted Bill Data → No: {bill_no}, Name: {name}, Mobile: {mobile}, Payable: {payable}")
+            return {
+                "billNo": bill_no,
+                "name": name,
+                "mobile": mobile,
+                "payable": payable
+            }
+        else:
+            log("⚠️ Bill number not found in PDF")
+            return None
     except Exception as e:
-        log(f"Error reading PDF: {e}")
+        log(f"⚠️ Error extracting bill data: {e}")
         return None
 
-# ✅ Update bills.json
-def update_bills_json(bill_data):
+def update_json(bill_data):
     try:
-        if not bill_data or not bill_data["billNo"]:
-            log("⚠️ Invalid bill data, skipping JSON update")
-            return
-
-        if os.path.exists(BILLS_JSON):
-            with open(BILLS_JSON, "r") as f:
-                data = json.load(f)
+        if os.path.exists(JSON_FILE):
+            with open(JSON_FILE, "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                except:
+                    data = {"bills": []}
         else:
             data = {"bills": []}
 
-        # check duplicate
-        exists = any(b["billNo"] == bill_data["billNo"] for b in data["bills"])
-        if not exists:
-            data["bills"].append(bill_data)
-            with open(BILLS_JSON, "w") as f:
-                json.dump(data, f, indent=2)
-            log(f"✅ Added Bill {bill_data['billNo']} to bills.json")
-        else:
-            log("ℹ️ Bill already exists, not adding again")
+        if "bills" not in data:
+            data["bills"] = []
+
+        # Remove old entry with same billNo
+        data["bills"] = [b for b in data["bills"] if b.get("billNo") != bill_data["billNo"]]
+
+        # Add new entry
+        data["bills"].append(bill_data)
+
+        with open(JSON_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
+        log(f"✅ Added Bill {bill_data['billNo']} to bills.json")
 
     except Exception as e:
         log(f"Error updating bills.json: {e}")
 
 def push_changes():
     if os.path.exists(WATCH_FILE):
-        shutil.copy2(WATCH_FILE, TARGET_FILE)
+        shutil.copy2(WATCH_FILE, TARGET_FILE)   # always copy fresh
         log("Copied latest BILL.pdf into repo")
-
-        # extract bill data and update json
-        bill_data = extract_bill_data(WATCH_FILE)
-        if bill_data:
-            update_bills_json(bill_data)
     else:
         log("⚠️ WATCH_FILE missing, cannot copy")
         return
+
+    bill_data = extract_bill_data()
+    if bill_data:
+        update_json(bill_data)
 
     run(f'"{GIT}" add -A')
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
