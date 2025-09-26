@@ -40,8 +40,8 @@ def extract_bill_data():
             for page in pdf.pages:
                 text += page.extract_text() + "\n"
 
-        # Extract Name
-        name_match = re.search(r"NAME:\s*([A-Za-z\s]+)", text, re.IGNORECASE)
+        # ✅ Extract Name (stop before MOB)
+        name_match = re.search(r"NAME:\s*([A-Za-z\s]+?)(?:MOB:|$)", text, re.IGNORECASE)
         name = name_match.group(1).strip() if name_match else None
 
         # Extract Mobile
