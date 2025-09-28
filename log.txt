@@ -695,3 +695,18 @@ MOB, Mobile: 8451018771, Payable: 2500.00
 [2025-09-28 14:25:12] ✅ Extracted Bill Data → No: 04021, Name: None, Mobile: None, Payable: 400.00
 [2025-09-28 14:25:12] ✅ Added Bill 04021 to bills.json
 [2025-09-28 14:25:12] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-28 14:25:12] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-28 14:25:12" --allow-empty
+[2025-09-28 14:25:13] [main 2d6a488] Auto update BILL.pdf and bills.json at 2025-09-28 14:25:12
+ 3 files changed, 12 insertions(+)
+[2025-09-28 14:25:13] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-28 14:25:15] To https://github.com/lifestyleshirva/bill.git
+   e7e91cc..2d6a488  main -> main
+[2025-09-28 14:25:15] ✅ Last update successful
+[2025-09-28 14:25:15] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-28 14:25:15] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-28 14:25:42] Watching: D:\bill\BILL.pdf
+[2025-09-28 14:25:42] Detected update in BILL.pdf, pushing...
+[2025-09-28 14:25:42] Copied latest BILL.pdf into repo
+[2025-09-28 14:25:42] ✅ Extracted Bill Data → No: 04021, Name: None, Mobile: None, Payable: 400.00
+[2025-09-28 14:25:42] ✅ Added Bill 04021 to bills.json
+[2025-09-28 14:25:42] Running: "C:\Program Files\Git\cmd\git.exe" add -A
