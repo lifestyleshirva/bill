@@ -689,3 +689,9 @@ MOB, Mobile: 8451018771, Payable: 2500.00
 [2025-09-28 10:52:50] ✅ Extracted Bill Data → No: 04014, Name: None, Mobile: None, Payable: 450.00
 [2025-09-28 10:52:50] ✅ Added Bill 04014 to bills.json
 [2025-09-28 10:52:50] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-28 14:25:12] Watching: D:\bill\BILL.pdf
+[2025-09-28 14:25:12] Detected update in BILL.pdf, pushing...
+[2025-09-28 14:25:12] Copied latest BILL.pdf into repo
+[2025-09-28 14:25:12] ✅ Extracted Bill Data → No: 04021, Name: None, Mobile: None, Payable: 400.00
+[2025-09-28 14:25:12] ✅ Added Bill 04021 to bills.json
+[2025-09-28 14:25:12] Running: "C:\Program Files\Git\cmd\git.exe" add -A
