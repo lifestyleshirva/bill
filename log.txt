@@ -1,0 +1,691 @@
+Hello from Task Scheduler!
+[2025-09-25 17:25:20] Watching: D:\bill\BILL.pdf
+[2025-09-25 17:25:20] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:25:20] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:25:21] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:25:21" --allow-empty
+[2025-09-25 17:25:21] [main 6961f5f] Auto update BILL.pdf at 2025-09-25 17:25:21
+ 4 files changed, 31 insertions(+), 13 deletions(-)
+ create mode 100644 hello.py
+[2025-09-25 17:25:21] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:25:23] To https://github.com/lifestyleshirva/bill.git
+   2371ee7..6961f5f  main -> main
+[2025-09-25 17:25:23] ✅ Last update successful
+[2025-09-25 17:25:23] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:27:48] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:27:48] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:27:49] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:27:49" --allow-empty
+[2025-09-25 17:27:49] [main 0a23cf3] Auto update BILL.pdf at 2025-09-25 17:27:49
+ 2 files changed, 11 insertions(+)
+[2025-09-25 17:27:49] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:27:51] To https://github.com/lifestyleshirva/bill.git
+   6961f5f..0a23cf3  main -> main
+[2025-09-25 17:27:51] ✅ Last update successful
+[2025-09-25 17:27:51] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:30:49] Watching: D:\bill\BILL.pdf
+[2025-09-25 17:30:49] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:30:49] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:30:49] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:30:49" --allow-empty
+[2025-09-25 17:30:49] [main ce51ab2] Auto update BILL.pdf at 2025-09-25 17:30:49
+ 1 file changed, 11 insertions(+)
+[2025-09-25 17:30:49] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:30:51] To https://github.com/lifestyleshirva/bill.git
+   0a23cf3..ce51ab2  main -> main
+[2025-09-25 17:30:51] ✅ Last update successful
+[2025-09-25 17:30:51] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:33:51] Watching: D:\bill\BILL.pdf
+[2025-09-25 17:33:51] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:33:51] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:33:51] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:33:51" --allow-empty
+[2025-09-25 17:33:54] [main 70f887d] Auto update BILL.pdf at 2025-09-25 17:33:51
+ 1 file changed, 11 insertions(+)
+[2025-09-25 17:33:54] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:33:57] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:33:57] ✅ Last update successful
+[2025-09-25 17:33:57] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:34:51] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:34:51] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:34:52] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:34:52" --allow-empty
+[2025-09-25 17:34:52] [main c506ae7] Auto update BILL.pdf at 2025-09-25 17:34:52
+ 2 files changed, 13 insertions(+)
+[2025-09-25 17:34:52] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:34:53] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:34:53] ✅ Last update successful
+[2025-09-25 17:34:53] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:43:13] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:43:13] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:43:13] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:43:13" --allow-empty
+[2025-09-25 17:43:13] [main 61f827b] Auto update BILL.pdf at 2025-09-25 17:43:13
+ 2 files changed, 13 insertions(+)
+[2025-09-25 17:43:13] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:43:15] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:43:15] ✅ Last update successful
+[2025-09-25 17:43:15] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:45:10] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:45:10] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:45:10] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:45:10" --allow-empty
+[2025-09-25 17:45:10] [main 884067e] Auto update BILL.pdf at 2025-09-25 17:45:10
+ 2 files changed, 13 insertions(+)
+[2025-09-25 17:45:10] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:45:11] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:45:11] ✅ Last update successful
+[2025-09-25 17:45:11] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:45:31] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:45:31] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:45:31] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:45:31" --allow-empty
+[2025-09-25 17:45:31] [main 946cd21] Auto update BILL.pdf at 2025-09-25 17:45:31
+ 1 file changed, 13 insertions(+)
+[2025-09-25 17:45:31] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:45:32] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:45:32] ✅ Last update successful
+[2025-09-25 17:45:32] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 17:47:37] Detected update in BILL.pdf, pushing...
+[2025-09-25 17:47:37] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 17:47:37] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 17:47:37" --allow-empty
+[2025-09-25 17:47:37] [main 5dfbef8] Auto update BILL.pdf at 2025-09-25 17:47:37
+ 3 files changed, 23 insertions(+), 5 deletions(-)
+[2025-09-25 17:47:37] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 17:47:38] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 17:47:38] ✅ Last update successful
+[2025-09-25 17:47:38] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:01:38] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:01:38] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:01:38] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:01:38" --allow-empty
+[2025-09-25 18:01:38] [main 2ff19ee] Auto update BILL.pdf at 2025-09-25 18:01:38
+ 2 files changed, 13 insertions(+)
+[2025-09-25 18:01:38] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:01:39] fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+bash: line 1: /dev/tty: No such device or address
+error: failed to execute prompt script (exit code 1)
+fatal: could not read Username for 'https://github.com': No such file or directory
+[2025-09-25 18:01:39] ✅ Last update successful
+[2025-09-25 18:01:39] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:08:05] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:08:05] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:08:05] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:08:05" --allow-empty
+[2025-09-25 18:08:05] [main 910c371] Auto update BILL.pdf at 2025-09-25 18:08:05
+ 2 files changed, 2 insertions(+)
+[2025-09-25 18:08:05] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:08:06] remote: Repository not found.
+fatal: repository 'https://github.com/LIFESTYLE-SHIRVA/bill-4rh.git/' not found
+[2025-09-25 18:08:06] ✅ Last update successful
+[2025-09-25 18:08:06] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:15:11] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:15:11] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:15:11] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:15:11" --allow-empty
+[2025-09-25 18:15:11] [main bce73f1] Auto update BILL.pdf at 2025-09-25 18:15:11
+ 2 files changed, 10 insertions(+)
+[2025-09-25 18:15:11] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:15:13] To https://github.com/lifestyleshirva/bill.git
+   910c371..bce73f1  main -> main
+[2025-09-25 18:15:13] ✅ Last update successful
+[2025-09-25 18:15:13] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:20:53] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:20:53] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:20:53] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:20:53" --allow-empty
+[2025-09-25 18:20:53] [main 3976f6f] Auto update BILL.pdf at 2025-09-25 18:20:53
+ 2 files changed, 10 insertions(+)
+[2025-09-25 18:20:53] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:20:55] To https://github.com/lifestyleshirva/bill.git
+   bce73f1..3976f6f  main -> main
+[2025-09-25 18:20:55] ✅ Last update successful
+[2025-09-25 18:20:55] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:27:15] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:27:15] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:27:15] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:27:15" --allow-empty
+[2025-09-25 18:27:15] [main 09e338b] Auto update BILL.pdf at 2025-09-25 18:27:15
+ 2 files changed, 10 insertions(+)
+[2025-09-25 18:27:15] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:27:17] To https://github.com/lifestyleshirva/bill.git
+   3976f6f..09e338b  main -> main
+[2025-09-25 18:27:17] ✅ Last update successful
+[2025-09-25 18:27:17] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:47:22] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:47:22] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:47:23] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:47:23" --allow-empty
+[2025-09-25 18:47:23] [main 86f6577] Auto update BILL.pdf at 2025-09-25 18:47:23
+ 2 files changed, 10 insertions(+)
+[2025-09-25 18:47:23] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:47:25] To https://github.com/lifestyleshirva/bill.git
+   09e338b..86f6577  main -> main
+[2025-09-25 18:47:25] ✅ Last update successful
+[2025-09-25 18:47:25] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 18:59:25] Detected update in BILL.pdf, pushing...
+[2025-09-25 18:59:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 18:59:25] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 18:59:25" --allow-empty
+[2025-09-25 18:59:25] [main 4323611] Auto update BILL.pdf at 2025-09-25 18:59:25
+ 2 files changed, 10 insertions(+)
+[2025-09-25 18:59:25] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 18:59:27] To https://github.com/lifestyleshirva/bill.git
+   86f6577..4323611  main -> main
+[2025-09-25 18:59:27] ✅ Last update successful
+[2025-09-25 18:59:27] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 19:08:27] Detected update in BILL.pdf, pushing...
+[2025-09-25 19:08:27] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 19:08:27] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 19:08:27" --allow-empty
+[2025-09-25 19:08:27] [main df9e349] Auto update BILL.pdf at 2025-09-25 19:08:27
+ 2 files changed, 10 insertions(+)
+[2025-09-25 19:08:27] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 19:08:29] To https://github.com/lifestyleshirva/bill.git
+   4323611..df9e349  main -> main
+[2025-09-25 19:08:29] ✅ Last update successful
+[2025-09-25 19:08:29] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 19:24:54] Detected update in BILL.pdf, pushing...
+[2025-09-25 19:24:54] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 19:24:55] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 19:24:55" --allow-empty
+[2025-09-25 19:24:55] [main 43c9c37] Auto update BILL.pdf at 2025-09-25 19:24:55
+ 2 files changed, 10 insertions(+)
+[2025-09-25 19:24:55] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 19:24:57] To https://github.com/lifestyleshirva/bill.git
+   df9e349..43c9c37  main -> main
+[2025-09-25 19:24:57] ✅ Last update successful
+[2025-09-25 19:24:57] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-25 19:26:17] Detected update in BILL.pdf, pushing...
+[2025-09-25 19:26:17] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-25 19:26:17] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-25 19:26:17" --allow-empty
+[2025-09-25 19:26:17] [main a471fe0] Auto update BILL.pdf at 2025-09-25 19:26:17
+ 2 files changed, 10 insertions(+)
+[2025-09-25 19:26:17] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-25 19:26:19] To https://github.com/lifestyleshirva/bill.git
+   43c9c37..a471fe0  main -> main
+[2025-09-25 19:26:19] ✅ Last update successful
+[2025-09-25 19:26:19] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 08:59:25] Watching: D:\bill\BILL.pdf
+[2025-09-26 08:59:25] Detected update in BILL.pdf, pushing...
+[2025-09-26 08:59:25] Copied latest BILL.pdf into repo
+[2025-09-26 08:59:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 08:59:31] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 08:59:31" --allow-empty
+[2025-09-26 08:59:31] [main 376ec44] Auto update BILL.pdf at 2025-09-26 08:59:31
+ 1 file changed, 12 insertions(+)
+[2025-09-26 08:59:31] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 08:59:34] To https://github.com/lifestyleshirva/bill.git
+   a471fe0..376ec44  main -> main
+[2025-09-26 08:59:34] ✅ Last update successful
+[2025-09-26 08:59:34] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 09:09:25] Watching: D:\bill\BILL.pdf
+[2025-09-26 09:09:25] Detected update in BILL.pdf, pushing...
+[2025-09-26 09:09:25] Copied latest BILL.pdf into repo
+[2025-09-26 09:09:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 09:09:25] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 09:09:25" --allow-empty
+[2025-09-26 09:09:26] [main f429d63] Auto update BILL.pdf at 2025-09-26 09:09:25
+ 1 file changed, 12 insertions(+)
+[2025-09-26 09:09:26] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 09:09:28] To https://github.com/lifestyleshirva/bill.git
+   376ec44..f429d63  main -> main
+[2025-09-26 09:09:28] ✅ Last update successful
+[2025-09-26 09:09:28] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 09:23:58] Detected update in BILL.pdf, pushing...
+[2025-09-26 09:23:59] Copied latest BILL.pdf into repo
+[2025-09-26 09:23:59] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 09:23:59] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 09:23:59" --allow-empty
+[2025-09-26 09:23:59] [main 8f7ec25] Auto update BILL.pdf at 2025-09-26 09:23:59
+ 2 files changed, 11 insertions(+)
+[2025-09-26 09:23:59] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 09:24:01] To https://github.com/lifestyleshirva/bill.git
+   f429d63..8f7ec25  main -> main
+[2025-09-26 09:24:01] ✅ Last update successful
+[2025-09-26 09:24:01] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 11:40:44] Detected update in BILL.pdf, pushing...
+[2025-09-26 11:40:44] Copied latest BILL.pdf into repo
+[2025-09-26 11:40:44] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 11:40:44] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 11:40:44" --allow-empty
+[2025-09-26 11:40:45] [main 0cfde92] Auto update BILL.pdf at 2025-09-26 11:40:44
+ 2 files changed, 11 insertions(+)
+[2025-09-26 11:40:45] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 11:40:46] To https://github.com/lifestyleshirva/bill.git
+   8f7ec25..0cfde92  main -> main
+[2025-09-26 11:40:46] ✅ Last update successful
+[2025-09-26 11:40:46] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 12:09:52] Detected update in BILL.pdf, pushing...
+[2025-09-26 12:09:52] Copied latest BILL.pdf into repo
+[2025-09-26 12:09:52] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 12:09:52] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 12:09:52" --allow-empty
+[2025-09-26 12:09:52] [main b73785b] Auto update BILL.pdf at 2025-09-26 12:09:52
+ 2 files changed, 11 insertions(+)
+[2025-09-26 12:09:52] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 12:09:54] To https://github.com/lifestyleshirva/bill.git
+   0cfde92..b73785b  main -> main
+[2025-09-26 12:09:54] ✅ Last update successful
+[2025-09-26 12:09:54] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 12:12:34] Detected update in BILL.pdf, pushing...
+[2025-09-26 12:12:34] Copied latest BILL.pdf into repo
+[2025-09-26 12:12:34] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 12:12:34] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 12:12:34" --allow-empty
+[2025-09-26 12:12:35] [main 2a9c595] Auto update BILL.pdf at 2025-09-26 12:12:34
+ 2 files changed, 11 insertions(+)
+[2025-09-26 12:12:35] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 12:12:37] To https://github.com/lifestyleshirva/bill.git
+   b73785b..2a9c595  main -> main
+[2025-09-26 12:12:37] ✅ Last update successful
+[2025-09-26 12:12:37] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 12:13:57] Detected update in BILL.pdf, pushing...
+[2025-09-26 12:13:57] Copied latest BILL.pdf into repo
+[2025-09-26 12:13:57] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 12:13:57] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 12:13:57" --allow-empty
+[2025-09-26 12:13:57] [main 2a2f898] Auto update BILL.pdf at 2025-09-26 12:13:57
+ 2 files changed, 11 insertions(+)
+[2025-09-26 12:13:57] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 12:13:59] To https://github.com/lifestyleshirva/bill.git
+   2a9c595..2a2f898  main -> main
+[2025-09-26 12:13:59] ✅ Last update successful
+[2025-09-26 12:13:59] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 12:51:34] Detected update in BILL.pdf, pushing...
+[2025-09-26 12:51:34] Copied latest BILL.pdf into repo
+[2025-09-26 12:51:34] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 12:51:34] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 12:51:34" --allow-empty
+[2025-09-26 12:51:34] [main 2b3cf3d] Auto update BILL.pdf at 2025-09-26 12:51:34
+ 2 files changed, 11 insertions(+)
+[2025-09-26 12:51:34] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 12:51:36] To https://github.com/lifestyleshirva/bill.git
+   2a2f898..2b3cf3d  main -> main
+[2025-09-26 12:51:36] ✅ Last update successful
+[2025-09-26 12:51:36] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 12:58:01] Detected update in BILL.pdf, pushing...
+[2025-09-26 12:58:01] Copied latest BILL.pdf into repo
+[2025-09-26 12:58:01] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 12:58:01] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 12:58:01" --allow-empty
+[2025-09-26 12:58:01] [main 1359bca] Auto update BILL.pdf at 2025-09-26 12:58:01
+ 2 files changed, 11 insertions(+)
+[2025-09-26 12:58:01] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 12:58:03] To https://github.com/lifestyleshirva/bill.git
+   2b3cf3d..1359bca  main -> main
+[2025-09-26 12:58:03] ✅ Last update successful
+[2025-09-26 12:58:03] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 16:53:08] Watching: D:\bill\BILL.pdf
+[2025-09-26 16:53:08] Detected update in BILL.pdf, pushing...
+[2025-09-26 16:53:08] Copied latest BILL.pdf into repo
+[2025-09-26 16:53:08] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 16:53:08] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 16:53:08" --allow-empty
+[2025-09-26 16:53:08] [main a4e6f35] Auto update BILL.pdf at 2025-09-26 16:53:08
+ 2 files changed, 12 insertions(+)
+[2025-09-26 16:53:08] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 16:53:10] To https://github.com/lifestyleshirva/bill.git
+   1359bca..a4e6f35  main -> main
+[2025-09-26 16:53:10] ✅ Last update successful
+[2025-09-26 16:53:10] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:07:21] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:07:21] Copied latest BILL.pdf into repo
+[2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 17:07:21" --allow-empty
+[2025-09-26 17:07:21] [main 0130862] Auto update BILL.pdf at 2025-09-26 17:07:21
+ 3 files changed, 57 insertions(+), 1 deletion(-)
+[2025-09-26 17:07:21] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:07:23] To https://github.com/lifestyleshirva/bill.git
+   7e8baaf..0130862  main -> main
+[2025-09-26 17:07:23] ✅ Last update successful
+[2025-09-26 17:07:23] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:17:17] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:17:17] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:17:17] Copied latest BILL.pdf into repo
+[2025-09-26 17:17:17] ✅ Extracted Bill Number: 03977
+[2025-09-26 17:17:17] Error updating bills.json: Expecting value: line 1 column 1 (char 0)
+[2025-09-26 17:17:17] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:17:18] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:17:18" --allow-empty
+[2025-09-26 17:17:18] [main 59d46c2] Auto update BILL.pdf and bills.json at 2025-09-26 17:17:18
+ 4 files changed, 28 insertions(+), 3 deletions(-)
+ delete mode 100644 hello.py
+ create mode 100644 test_read.py
+[2025-09-26 17:17:18] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:17:19] To https://github.com/lifestyleshirva/bill.git
+   0130862..59d46c2  main -> main
+[2025-09-26 17:17:19] ✅ Last update successful
+[2025-09-26 17:17:19] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:17:19] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:22:14] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:22:14] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:22:14] Copied latest BILL.pdf into repo
+[2025-09-26 17:22:14] ✅ Extracted Bill Number: 03977
+[2025-09-26 17:22:14] ✅ Added Bill Number 03977 into bills.json
+[2025-09-26 17:22:14] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:22:14] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:22:14" --allow-empty
+[2025-09-26 17:22:14] [main 19d65e9] Auto update BILL.pdf and bills.json at 2025-09-26 17:22:14
+ 2 files changed, 22 insertions(+)
+[2025-09-26 17:22:14] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:22:15] To https://github.com/lifestyleshirva/bill.git
+   59d46c2..19d65e9  main -> main
+[2025-09-26 17:22:15] ✅ Last update successful
+[2025-09-26 17:22:15] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:22:15] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:39:52] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:39:52] Copied latest BILL.pdf into repo
+[2025-09-26 17:39:52] ✅ Extracted Bill Number: 03976
+[2025-09-26 17:39:52] ✅ Added Bill Number 03976 into bills.json
+[2025-09-26 17:39:52] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:39:52] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:39:52" --allow-empty
+[2025-09-26 17:39:52] [main 110f5f5] Auto update BILL.pdf and bills.json at 2025-09-26 17:39:52
+ 3 files changed, 16 insertions(+), 1 deletion(-)
+[2025-09-26 17:39:52] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:39:54] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:39:54] Copied latest BILL.pdf into repo
+[2025-09-26 17:39:54] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:39:54] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 17:39:54" --allow-empty
+[2025-09-26 17:39:54] [main 445410f] Auto update BILL.pdf at 2025-09-26 17:39:54
+ 1 file changed, 7 insertions(+)
+[2025-09-26 17:39:54] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:39:54] To https://github.com/lifestyleshirva/bill.git
+   19d65e9..110f5f5  main -> main
+[2025-09-26 17:39:54] ✅ Last update successful
+[2025-09-26 17:39:54] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:39:54] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:39:57] To https://github.com/lifestyleshirva/bill.git
+   110f5f5..445410f  main -> main
+[2025-09-26 17:39:57] ✅ Last update successful
+[2025-09-26 17:39:57] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:47:22] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:47:22] Copied latest BILL.pdf into repo
+[2025-09-26 17:47:22] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:47:22] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf at 2025-09-26 17:47:22" --allow-empty
+[2025-09-26 17:47:22] [main e70f6e9] Auto update BILL.pdf at 2025-09-26 17:47:22
+ 3 files changed, 56 insertions(+), 21 deletions(-)
+[2025-09-26 17:47:22] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:47:24] To https://github.com/lifestyleshirva/bill.git
+   445410f..e70f6e9  main -> main
+[2025-09-26 17:47:24] ✅ Last update successful
+[2025-09-26 17:47:24] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:47:25] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:47:25] Copied latest BILL.pdf into repo
+[2025-09-26 17:47:25] ✅ Extracted Bill Number: 03973
+[2025-09-26 17:47:25] ✅ Added Bill Number 03973 into bills.json
+[2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:47:25" --allow-empty
+[2025-09-26 17:47:25] [main 2abbc3c] Auto update BILL.pdf and bills.json at 2025-09-26 17:47:25
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+[2025-09-26 17:47:25] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:47:27] To https://github.com/lifestyleshirva/bill.git
+   e70f6e9..2abbc3c  main -> main
+[2025-09-26 17:47:27] ✅ Last update successful
+[2025-09-26 17:47:27] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:47:27] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 17:51:29] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:51:32] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:57:41] Watching: D:\bill\BILL.pdf
+[2025-09-26 17:57:41] Detected update in BILL.pdf, pushing...
+[2025-09-26 17:57:41] Copied latest BILL.pdf into repo
+[2025-09-26 17:57:41] ✅ Extracted Bill Data → No: 03979, Mobile: None, Amount: 450.00
+[2025-09-26 17:57:41] Error updating bills.json: 'bills'
+[2025-09-26 17:57:41] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 17:57:41] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 17:57:41" --allow-empty
+[2025-09-26 17:57:41] [main 4871e3a] Auto update BILL.pdf and bills.json at 2025-09-26 17:57:41
+ 2 files changed, 17 insertions(+)
+[2025-09-26 17:57:41] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 17:57:43] To https://github.com/lifestyleshirva/bill.git
+   2abbc3c..4871e3a  main -> main
+[2025-09-26 17:57:43] ✅ Last update successful
+[2025-09-26 17:57:43] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 17:57:43] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 18:07:05] Watching: D:\bill\BILL.pdf
+[2025-09-26 18:07:05] Detected update in BILL.pdf, pushing...
+[2025-09-26 18:07:05] Copied latest BILL.pdf into repo
+[2025-09-26 18:07:05] ✅ Extracted Bill Data → No: 03981, Mobile: None, Amount: 50.00
+[2025-09-26 18:07:05] ✅ Added Bill 03981 to bills.json
+[2025-09-26 18:07:05] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 18:07:05] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 18:07:05" --allow-empty
+[2025-09-26 18:07:05] [main ed8e8ab] Auto update BILL.pdf and bills.json at 2025-09-26 18:07:05
+ 3 files changed, 21 insertions(+), 4 deletions(-)
+[2025-09-26 18:07:05] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 18:07:06] To https://github.com/lifestyleshirva/bill.git
+   4871e3a..ed8e8ab  main -> main
+[2025-09-26 18:07:06] ✅ Last update successful
+[2025-09-26 18:07:06] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 18:07:06] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 18:30:14] Detected update in BILL.pdf, pushing...
+[2025-09-26 18:30:14] Copied latest BILL.pdf into repo
+[2025-09-26 18:30:14] ✅ Extracted Bill Data → No: 03978, Mobile: 9986265292, Amount: 590.00
+[2025-09-26 18:30:14] ✅ Added Bill 03978 to bills.json
+[2025-09-26 18:30:14] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 18:30:14] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 18:30:14" --allow-empty
+[2025-09-26 18:30:14] [main df54870] Auto update BILL.pdf and bills.json at 2025-09-26 18:30:14
+ 3 files changed, 19 insertions(+)
+[2025-09-26 18:30:14] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 18:30:16] To https://github.com/lifestyleshirva/bill.git
+   ed8e8ab..df54870  main -> main
+[2025-09-26 18:30:16] ✅ Last update successful
+[2025-09-26 18:30:16] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 18:30:16] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 18:38:09] Detected update in BILL.pdf, pushing...
+[2025-09-26 18:38:09] Copied latest BILL.pdf into repo
+[2025-09-26 18:38:09] ✅ Extracted Bill Data → No: 03982, Mobile: 9113290541, Amount: 660.00
+[2025-09-26 18:38:09] ✅ Added Bill 03982 to bills.json
+[2025-09-26 18:38:09] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 18:38:09] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 18:38:09" --allow-empty
+[2025-09-26 18:38:09] [main c2a7510] Auto update BILL.pdf and bills.json at 2025-09-26 18:38:09
+ 3 files changed, 19 insertions(+)
+[2025-09-26 18:38:09] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 18:38:11] To https://github.com/lifestyleshirva/bill.git
+   df54870..c2a7510  main -> main
+[2025-09-26 18:38:11] ✅ Last update successful
+[2025-09-26 18:38:11] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 18:38:11] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 19:17:35] Watching: D:\bill\BILL.pdf
+[2025-09-26 19:17:35] Detected update in BILL.pdf, pushing...
+[2025-09-26 19:17:35] Copied latest BILL.pdf into repo
+[2025-09-26 19:17:35] ✅ Extracted Bill Data → No: 03975, Name: SINTHIYA
+MOB, Mobile: 8451018771, Payable: 2500.00
+[2025-09-26 19:17:35] ✅ Added Bill 03975 to bills.json
+[2025-09-26 19:17:35] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 19:17:35] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 19:17:35" --allow-empty
+[2025-09-26 19:17:35] [main 4ee50d8] Auto update BILL.pdf and bills.json at 2025-09-26 19:17:35
+ 4 files changed, 82 insertions(+), 50 deletions(-)
+[2025-09-26 19:17:35] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 19:17:37] To https://github.com/lifestyleshirva/bill.git
+   c2a7510..4ee50d8  main -> main
+[2025-09-26 19:17:37] ✅ Last update successful
+[2025-09-26 19:17:37] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 19:17:37] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 19:18:32] Detected update in BILL.pdf, pushing...
+[2025-09-26 19:18:32] Copied latest BILL.pdf into repo
+[2025-09-26 19:18:32] ✅ Extracted Bill Data → No: 03975, Name: SINTHIYA
+MOB, Mobile: 8451018771, Payable: 2500.00
+[2025-09-26 19:18:32] ✅ Added Bill 03975 to bills.json
+[2025-09-26 19:18:32] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 19:18:33] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 19:18:33" --allow-empty
+[2025-09-26 19:18:33] [main 6aac1b7] Auto update BILL.pdf and bills.json at 2025-09-26 19:18:33
+ 1 file changed, 15 insertions(+)
+[2025-09-26 19:18:33] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 19:18:34] To https://github.com/lifestyleshirva/bill.git
+   4ee50d8..6aac1b7  main -> main
+[2025-09-26 19:18:34] ✅ Last update successful
+[2025-09-26 19:18:34] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 19:18:34] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 19:35:41] Detected update in BILL.pdf, pushing...
+[2025-09-26 19:50:47] Watching: D:\bill\BILL.pdf
+[2025-09-26 19:50:47] Detected update in BILL.pdf, pushing...
+[2025-09-26 19:51:00] Watching: D:\bill\BILL.pdf
+[2025-09-26 19:51:00] Detected update in BILL.pdf, pushing...
+[2025-09-26 19:51:00] Copied latest BILL.pdf into repo
+[2025-09-26 19:51:00] ✅ Extracted Bill Data → No: 03984, Name: FARUK, Mobile: 9945772097, Payable: 1240.00
+[2025-09-26 19:51:00] ✅ Added Bill 03984 to bills.json
+[2025-09-26 19:51:00] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 19:51:00] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 19:51:00" --allow-empty
+[2025-09-26 19:51:01] [main c2cb1d4] Auto update BILL.pdf and bills.json at 2025-09-26 19:51:00
+ 4 files changed, 26 insertions(+), 2 deletions(-)
+[2025-09-26 19:51:01] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 19:51:03] To https://github.com/lifestyleshirva/bill.git
+   6aac1b7..c2cb1d4  main -> main
+[2025-09-26 19:51:03] ✅ Last update successful
+[2025-09-26 19:51:03] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 19:51:03] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 20:08:40] Detected update in BILL.pdf, pushing...
+[2025-09-26 20:08:40] Copied latest BILL.pdf into repo
+[2025-09-26 20:08:40] ✅ Extracted Bill Data → No: 03985, Name: NON, Mobile: 9535973725, Payable: 1650.00
+[2025-09-26 20:08:40] ✅ Added Bill 03985 to bills.json
+[2025-09-26 20:08:40] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 20:08:40] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 20:08:40" --allow-empty
+[2025-09-26 20:08:40] [main 4f2e338] Auto update BILL.pdf and bills.json at 2025-09-26 20:08:40
+ 3 files changed, 20 insertions(+)
+[2025-09-26 20:08:40] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 20:08:42] To https://github.com/lifestyleshirva/bill.git
+   c2cb1d4..4f2e338  main -> main
+[2025-09-26 20:08:42] ✅ Last update successful
+[2025-09-26 20:08:42] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 20:08:42] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-26 20:59:22] Detected update in BILL.pdf, pushing...
+[2025-09-26 20:59:22] Copied latest BILL.pdf into repo
+[2025-09-26 20:59:22] ✅ Extracted Bill Data → No: 03986, Name: SRINATH HEGADAY, Mobile: 9164534440, Payable: 1108.00
+[2025-09-26 20:59:22] ✅ Added Bill 03986 to bills.json
+[2025-09-26 20:59:22] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-26 20:59:22] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-26 20:59:22" --allow-empty
+[2025-09-26 20:59:22] [main 92b3c8f] Auto update BILL.pdf and bills.json at 2025-09-26 20:59:22
+ 3 files changed, 20 insertions(+)
+[2025-09-26 20:59:22] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-26 20:59:24] To https://github.com/lifestyleshirva/bill.git
+   4f2e338..92b3c8f  main -> main
+[2025-09-26 20:59:24] ✅ Last update successful
+[2025-09-26 20:59:24] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-26 20:59:24] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 12:59:10] Watching: D:\bill\BILL.pdf
+[2025-09-27 12:59:10] Detected update in BILL.pdf, pushing...
+[2025-09-27 12:59:10] Copied latest BILL.pdf into repo
+[2025-09-27 12:59:10] ✅ Extracted Bill Data → No: 03989, Name: None, Mobile: None, Payable: 150.00
+[2025-09-27 12:59:10] ✅ Added Bill 03989 to bills.json
+[2025-09-27 12:59:10] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 12:59:10] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 12:59:10" --allow-empty
+[2025-09-27 12:59:10] [main 7a77c24] Auto update BILL.pdf and bills.json at 2025-09-27 12:59:10
+ 3 files changed, 21 insertions(+)
+[2025-09-27 12:59:10] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 12:59:12] To https://github.com/lifestyleshirva/bill.git
+   92b3c8f..7a77c24  main -> main
+[2025-09-27 12:59:12] ✅ Last update successful
+[2025-09-27 12:59:12] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 12:59:12] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 13:07:08] Detected update in BILL.pdf, pushing...
+[2025-09-27 13:07:08] Copied latest BILL.pdf into repo
+[2025-09-27 13:07:08] ✅ Extracted Bill Data → No: 03990, Name: NIRAJ, Mobile: 8105235603, Payable: 1700.00
+[2025-09-27 13:07:08] ✅ Added Bill 03990 to bills.json
+[2025-09-27 13:07:08] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 13:07:08] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 13:07:08" --allow-empty
+[2025-09-27 13:07:08] [main 43671aa] Auto update BILL.pdf and bills.json at 2025-09-27 13:07:08
+ 3 files changed, 20 insertions(+)
+[2025-09-27 13:07:08] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 13:07:10] To https://github.com/lifestyleshirva/bill.git
+   7a77c24..43671aa  main -> main
+[2025-09-27 13:07:10] ✅ Last update successful
+[2025-09-27 13:07:10] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 13:07:10] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 16:23:19] Watching: D:\bill\BILL.pdf
+[2025-09-27 16:23:19] Detected update in BILL.pdf, pushing...
+[2025-09-27 16:23:19] Copied latest BILL.pdf into repo
+[2025-09-27 16:23:20] ✅ Extracted Bill Data → No: 03995, Name: None, Mobile: None, Payable: 120.00
+[2025-09-27 16:23:20] ✅ Added Bill 03995 to bills.json
+[2025-09-27 16:23:20] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 16:23:21] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 16:23:21" --allow-empty
+[2025-09-27 16:23:21] [main c44c786] Auto update BILL.pdf and bills.json at 2025-09-27 16:23:21
+ 17 files changed, 21763 insertions(+)
+ create mode 100644 build/watch_and_push/Analysis-00.toc
+ create mode 100644 build/watch_and_push/PKG-00.toc
+ create mode 100644 build/watch_and_push/PYZ-00.pyz
+ create mode 100644 build/watch_and_push/PYZ-00.toc
+ create mode 100644 build/watch_and_push/base_library.zip
+ create mode 100644 build/watch_and_push/localpycs/pyimod01_archive.pyc
+ create mode 100644 build/watch_and_push/localpycs/pyimod02_importers.pyc
+ create mode 100644 build/watch_and_push/localpycs/pyimod03_ctypes.pyc
+ create mode 100644 build/watch_and_push/localpycs/pyimod04_pywin32.pyc
+ create mode 100644 build/watch_and_push/localpycs/struct.pyc
+ create mode 100644 build/watch_and_push/warn-watch_and_push.txt
+ create mode 100644 build/watch_and_push/watch_and_push.pkg
+ create mode 100644 build/watch_and_push/xref-watch_and_push.html
+ create mode 100644 watch_and_push.spec
+[2025-09-27 16:23:21] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 16:23:37] To https://github.com/lifestyleshirva/bill.git
+   43671aa..c44c786  main -> main
+[2025-09-27 16:23:37] ✅ Last update successful
+[2025-09-27 16:23:37] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 16:23:37] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 16:32:12] Watching: D:\bill\BILL.pdf
+[2025-09-27 16:32:12] Detected update in BILL.pdf, pushing...
+[2025-09-27 16:32:12] Copied latest BILL.pdf into repo
+[2025-09-27 16:32:12] ✅ Extracted Bill Data → No: 03995, Name: None, Mobile: None, Payable: 120.00
+[2025-09-27 16:32:12] ✅ Added Bill 03995 to bills.json
+[2025-09-27 16:32:12] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 16:32:12] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 16:32:12" --allow-empty
+[2025-09-27 16:32:13] [main 4cd0352] Auto update BILL.pdf and bills.json at 2025-09-27 16:32:12
+ 1 file changed, 29 insertions(+)
+[2025-09-27 16:32:13] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 16:32:14] To https://github.com/lifestyleshirva/bill.git
+   c44c786..4cd0352  main -> main
+[2025-09-27 16:32:14] ✅ Last update successful
+[2025-09-27 16:32:14] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 16:32:14] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 16:40:18] Watching: D:\bill\BILL.pdf
+[2025-09-27 16:40:18] Detected update in BILL.pdf, pushing...
+[2025-09-27 16:40:18] Copied latest BILL.pdf into repo
+[2025-09-27 16:40:18] ✅ Extracted Bill Data → No: 03995, Name: None, Mobile: None, Payable: 120.00
+[2025-09-27 16:40:18] ✅ Added Bill 03995 to bills.json
+[2025-09-27 16:40:18] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 16:40:19] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 16:40:19" --allow-empty
+[2025-09-27 16:42:36] Watching: D:\bill\BILL.pdf
+[2025-09-27 16:42:36] Detected update in BILL.pdf, pushing...
+[2025-09-27 16:42:36] Copied latest BILL.pdf into repo
+[2025-09-27 16:42:36] ✅ Extracted Bill Data → No: 03995, Name: None, Mobile: None, Payable: 120.00
+[2025-09-27 16:42:36] ✅ Added Bill 03995 to bills.json
+[2025-09-27 16:42:36] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 16:42:36] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 16:42:36" --allow-empty
+[2025-09-27 16:42:36] [main 3faa273] Auto update BILL.pdf and bills.json at 2025-09-27 16:42:36
+ 1 file changed, 22 insertions(+)
+[2025-09-27 16:42:36] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 16:42:38] To https://github.com/lifestyleshirva/bill.git
+   4cd0352..3faa273  main -> main
+[2025-09-27 16:42:38] ✅ Last update successful
+[2025-09-27 16:42:38] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 16:42:38] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-27 21:14:40] Watching: D:\bill\BILL.pdf
+[2025-09-27 21:14:40] Detected update in BILL.pdf, pushing...
+[2025-09-27 21:14:40] Copied latest BILL.pdf into repo
+[2025-09-27 21:14:40] ✅ Extracted Bill Data → No: 04012, Name: None, Mobile: None, Payable: 240.00
+[2025-09-27 21:14:40] ✅ Added Bill 04012 to bills.json
+[2025-09-27 21:14:40] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-27 21:14:40] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-27 21:14:40" --allow-empty
+[2025-09-27 21:14:40] [main 6116b44] Auto update BILL.pdf and bills.json at 2025-09-27 21:14:40
+ 4 files changed, 21 insertions(+)
+ create mode 100644 service_error.log
+[2025-09-27 21:14:40] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-27 21:14:42] To https://github.com/lifestyleshirva/bill.git
+   3faa273..6116b44  main -> main
+[2025-09-27 21:14:42] ✅ Last update successful
+[2025-09-27 21:14:42] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-27 21:14:42] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-28 10:50:05] Watching: D:\bill\BILL.pdf
+[2025-09-28 10:50:05] Detected update in BILL.pdf, pushing...
+[2025-09-28 10:50:05] Copied latest BILL.pdf into repo
+[2025-09-28 10:50:05] ✅ Extracted Bill Data → No: 04014, Name: None, Mobile: None, Payable: 450.00
+[2025-09-28 10:50:05] ✅ Added Bill 04014 to bills.json
+[2025-09-28 10:50:05] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-09-28 10:50:05] Running: "C:\Program Files\Git\cmd\git.exe" commit -m "Auto update BILL.pdf and bills.json at 2025-09-28 10:50:05" --allow-empty
+[2025-09-28 10:50:05] [main 2a84f76] Auto update BILL.pdf and bills.json at 2025-09-28 10:50:05
+ 3 files changed, 22 insertions(+)
+[2025-09-28 10:50:05] Running: "C:\Program Files\Git\cmd\git.exe" push origin main
+[2025-09-28 10:50:07] To https://github.com/lifestyleshirva/bill.git
+   6116b44..2a84f76  main -> main
+[2025-09-28 10:50:07] ✅ Last update successful
+[2025-09-28 10:50:07] Public URL: https://bill-4rh.pages.dev/BILL.pdf
+[2025-09-28 10:50:07] Public JSON: https://bill-4rh.pages.dev/bills.json
+[2025-09-28 10:52:50] Watching: D:\bill\BILL.pdf
+[2025-09-28 10:52:50] Detected update in BILL.pdf, pushing...
+[2025-09-28 10:52:50] Copied latest BILL.pdf into repo
+[2025-09-28 10:52:50] ✅ Extracted Bill Data → No: 04014, Name: None, Mobile: None, Payable: 450.00
+[2025-09-28 10:52:50] ✅ Added Bill 04014 to bills.json
+[2025-09-28 10:52:50] Running: "C:\Program Files\Git\cmd\git.exe" add -A
