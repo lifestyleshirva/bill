@@ -6,9 +6,9 @@
       "amount": "50.00"
     },
     {
-      "billNo": "03978",
+      "billNo": "12345",
       "mobile": "9986265292",
-      "amount": "590.00"
+      "amount": "1590.00"
     },
     {
       "billNo": "03982",
@@ -16,8 +16,8 @@
       "amount": "660.00"
     },
     {
-      "billNo": "03975",
-      "name": "SINTHIYA\nMOB",
+      "billNo": "111",
+      "name": "SINTHIYA",
       "mobile": "8451018771",
       "payable": "2500.00"
     },
