@@ -17,6 +17,11 @@ LOG_FILE = os.path.join(REPO_FOLDER, "log.txt")
 # Full git path
 GIT = r"C:\Program Files\Git\cmd\git.exe"
 
+def clear_log():
+    # ✅ Empty log.txt before writing a new run
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        f.write("")
+
 def log(message):
     timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
     line = f"{timestamp} {message}"
@@ -85,21 +90,27 @@ def update_json(bill_data):
         if "bills" not in data:
             data["bills"] = []
 
-        # Remove old entry with same billNo
+        # Remove old entry with same billNo (avoid duplicates)
         data["bills"] = [b for b in data["bills"] if b.get("billNo") != bill_data["billNo"]]
 
-        # Add new entry
+        # Add new bill
         data["bills"].append(bill_data)
+
+        # ✅ Keep only latest 50 bills
+        if len(data["bills"]) > 50:
+            data["bills"] = data["bills"][-50:]
 
         with open(JSON_FILE, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
 
-        log(f"✅ Added Bill {bill_data['billNo']} to bills.json")
+        log(f"✅ Added Bill {bill_data['billNo']} → bills.json now has {len(data['bills'])} entries")
 
     except Exception as e:
         log(f"Error updating bills.json: {e}")
 
 def push_changes():
+    clear_log()  # ✅ Clear log at the start of every run
+
     if os.path.exists(WATCH_FILE):
         shutil.copy2(WATCH_FILE, TARGET_FILE)   # always copy fresh
         log("Copied latest BILL.pdf into repo")
