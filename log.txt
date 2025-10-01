@@ -1,9 +1,4 @@
-[2025-09-30 20:37:45] Detected update in BILL.pdf, pushing...
-[2025-09-30 20:37:45] Copied latest BILL.pdf into repo
-[2025-09-30 20:37:45] Copied latest BILL.pdf into repo
-[2025-09-30 20:37:45] ✅ Extracted Bill Data → No: 04062, Name: None, Mobile: None, Payable: 480.00
-[2025-09-30 20:37:45] ✅ Extracted Bill Data → No: 04062, Name: None, Mobile: None, Payable: 480.00
-[2025-09-30 20:37:45] ✅ Added Bill 04062 → bills.json now has 6 entries
-[2025-09-30 20:37:45] Running: "C:\Program Files\Git\cmd\git.exe" add -A
-[2025-09-30 20:37:45] ✅ Added Bill 04062 to bills.json
-[2025-09-30 20:37:45] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-01 09:08:25] Copied latest BILL.pdf into repo
+[2025-10-01 09:08:25] ✅ Extracted Bill Data → No: 04062, Name: None, Mobile: None, Payable: 480.00
+[2025-10-01 09:08:25] ✅ Added Bill 04062 → bills.json now has 6 entries
+[2025-10-01 09:08:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
