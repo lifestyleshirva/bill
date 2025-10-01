@@ -1,4 +1,4 @@
-[2025-10-01 15:49:32] Copied latest BILL.pdf into repo
-[2025-10-01 15:49:32] ✅ Extracted Bill Data → No: 04073, Name: PREETHI SHETTY, Mobile: 7026016798, Payable: 1150.00
-[2025-10-01 15:49:32] ✅ Added Bill 04073 → bills.json now has 17 entries
-[2025-10-01 15:49:32] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-01 16:50:25] Copied latest BILL.pdf into repo
+[2025-10-01 16:50:25] ✅ Extracted Bill Data → No: 04074, Name: None, Mobile: None, Payable: 380.00
+[2025-10-01 16:50:25] ✅ Added Bill 04074 → bills.json now has 18 entries
+[2025-10-01 16:50:25] Running: "C:\Program Files\Git\cmd\git.exe" add -A
