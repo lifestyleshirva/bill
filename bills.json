@@ -109,12 +109,6 @@
       "payable": "200.00"
     },
     {
-      "billNo": "04107",
-      "name": "AKSHITHA",
-      "mobile": "9591259414",
-      "payable": "1400.00"
-    },
-    {
       "billNo": "04108",
       "name": "NON",
       "mobile": "8296146651",
@@ -125,6 +119,12 @@
       "name": "RAMANI AKKA",
       "mobile": "9480568168",
       "payable": "0.00"
+    },
+    {
+      "billNo": "04107",
+      "name": "AKSHITHA",
+      "mobile": "9591259414",
+      "payable": "1400.00"
     }
   ]
 }
