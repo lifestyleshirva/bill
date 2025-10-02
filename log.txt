@@ -1,3 +1,4 @@
-[2025-10-02 18:45:33] Copied latest BILL.pdf into repo
-[2025-10-02 18:45:33] ⚠️ Bill number not found in PDF
-[2025-10-02 18:45:33] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-02 18:48:52] Copied latest BILL.pdf into repo
+[2025-10-02 18:48:52] ✅ Extracted Bill Data → No: 04109, Name: RAMANI AKKA, Mobile: 9480568168, Payable: 0.00
+[2025-10-02 18:48:52] ✅ Added Bill 04109 → bills.json now has 21 entries
+[2025-10-02 18:48:52] Running: "C:\Program Files\Git\cmd\git.exe" add -A
