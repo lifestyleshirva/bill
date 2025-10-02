@@ -83,6 +83,12 @@
       "name": "NON",
       "mobile": "9663429945",
       "payable": "100.00"
+    },
+    {
+      "billNo": "04103",
+      "name": null,
+      "mobile": null,
+      "payable": "500.00"
     }
   ]
 }
