@@ -1,4 +1,4 @@
-[2025-10-04 13:24:18] Copied latest BILL.pdf into repo
-[2025-10-04 13:24:18] ✅ Extracted Bill Data → No: 04132, Name: SUJITH, Mobile: 9945024679, Payable: 460.00
-[2025-10-04 13:24:18] ✅ Added Bill 04132 → bills.json now has 44 entries
-[2025-10-04 13:24:18] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-04 13:25:26] Copied latest BILL.pdf into repo
+[2025-10-04 13:25:26] ✅ Extracted Bill Data → No: 04133, Name: None, Mobile: None, Payable: 360.00
+[2025-10-04 13:25:26] ✅ Added Bill 04133 → bills.json now has 45 entries
+[2025-10-04 13:25:26] Running: "C:\Program Files\Git\cmd\git.exe" add -A
