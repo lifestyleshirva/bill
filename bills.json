@@ -277,12 +277,6 @@
       "payable": "430.00"
     },
     {
-      "billNo": "04166",
-      "name": "SHARYA ACHARYA",
-      "mobile": "9901530591",
-      "payable": "3501.00"
-    },
-    {
       "billNo": "04167",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "600.00"
+    },
+    {
+      "billNo": "04166",
+      "name": "SHARYA ACHARYA",
+      "mobile": "9901530591",
+      "payable": "3501.00"
     }
   ]
 }
