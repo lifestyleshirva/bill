@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04109",
-      "name": "RAMANI AKKA",
-      "mobile": "9480568168",
-      "payable": "0.00"
-    },
-    {
       "billNo": "04107",
       "name": "AKSHITHA",
       "mobile": "9591259414",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "300.00"
+    },
+    {
+      "billNo": "04158",
+      "name": null,
+      "mobile": null,
+      "payable": "450.00"
     }
   ]
 }
