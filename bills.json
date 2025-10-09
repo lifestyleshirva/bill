@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04171",
-      "name": "JOTHI KAMTH",
-      "mobile": "9035086990",
-      "payable": "1650.00"
-    },
-    {
       "billNo": "04172",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "KRISHANA",
       "mobile": "9743832632",
       "payable": "986.00"
+    },
+    {
+      "billNo": "04221",
+      "name": "NON",
+      "mobile": "8197654206",
+      "payable": "1000.00"
     }
   ]
 }
