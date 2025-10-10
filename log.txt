@@ -1,3 +1,4 @@
-[2025-10-10 09:52:55] Copied latest BILL.pdf into repo
-[2025-10-10 09:52:55] ⚠️ Bill number not found in PDF
-[2025-10-10 09:52:55] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-10 12:10:35] Copied latest BILL.pdf into repo
+[2025-10-10 12:10:35] ✅ Extracted Bill Data → No: 04230, Name: ANANDHA, Mobile: 7353995320, Payable: 3300.00
+[2025-10-10 12:10:35] ✅ Added Bill 04230 → bills.json now has 50 entries
+[2025-10-10 12:10:35] Running: "C:\Program Files\Git\cmd\git.exe" add -A
