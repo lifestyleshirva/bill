@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04182",
-      "name": "NION",
-      "mobile": "9740553675",
-      "payable": "1558.00"
-    },
-    {
       "billNo": "04183",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "DIKSHA",
       "mobile": "6364296165",
       "payable": "1190.02"
+    },
+    {
+      "billNo": "04232",
+      "name": "DIVYA",
+      "mobile": "9611102550",
+      "payable": "1100.00"
     }
   ]
 }
