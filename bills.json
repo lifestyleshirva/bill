@@ -253,12 +253,6 @@
       "payable": "20.00"
     },
     {
-      "billNo": "04247",
-      "name": "NON",
-      "mobile": "7349622438",
-      "payable": "1580.00"
-    },
-    {
       "billNo": "04248",
       "name": "NEETHA",
       "mobile": "9731542704",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "140.00"
+    },
+    {
+      "billNo": "04247",
+      "name": "NON",
+      "mobile": "7349622438",
+      "payable": "1580.00"
     }
   ]
 }
