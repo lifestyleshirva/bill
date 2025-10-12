@@ -1,4 +1,3 @@
-[2025-10-12 17:47:49] Copied latest BILL.pdf into repo
-[2025-10-12 17:47:49] ✅ Extracted Bill Data → No: 04283, Name: SATHISH, Mobile: 8411069952, Payable: 4200.00
-[2025-10-12 17:47:49] ✅ Added Bill 04283 → bills.json now has 50 entries
-[2025-10-12 17:47:49] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-12 18:45:57] Copied latest BILL.pdf into repo
+[2025-10-12 18:45:57] ⚠️ Bill number not found in PDF
+[2025-10-12 18:45:57] Running: "C:\Program Files\Git\cmd\git.exe" add -A
