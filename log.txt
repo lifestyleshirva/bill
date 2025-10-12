@@ -1,5 +1,4 @@
-[2025-10-12 14:47:50] Copied latest BILL.pdf into repo
-[2025-10-12 14:47:50] ✅ Extracted Bill Data → No: 04275, Name: VIJYASREE
-KRISHANA BHAVANA, Mobile: 9108912711, Payable: 10500.00
-[2025-10-12 14:47:50] ✅ Added Bill 04275 → bills.json now has 50 entries
-[2025-10-12 14:47:50] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-12 15:56:04] Copied latest BILL.pdf into repo
+[2025-10-12 15:56:05] ✅ Extracted Bill Data → No: 04276, Name: DEEPIKA, Mobile: 9535028629, Payable: 17500.00
+[2025-10-12 15:56:05] ✅ Added Bill 04276 → bills.json now has 50 entries
+[2025-10-12 15:56:05] Running: "C:\Program Files\Git\cmd\git.exe" add -A
