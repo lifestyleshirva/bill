@@ -1,4 +1,4 @@
-[2025-10-12 16:57:39] Copied latest BILL.pdf into repo
-[2025-10-12 16:57:39] ✅ Extracted Bill Data → No: 04281, Name: RAGVENDHAR BHAT, Mobile: 9901427845, Payable: 6000.00
-[2025-10-12 16:57:39] ✅ Added Bill 04281 → bills.json now has 50 entries
-[2025-10-12 16:57:39] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-12 17:07:02] Copied latest BILL.pdf into repo
+[2025-10-12 17:07:02] ✅ Extracted Bill Data → No: 04282, Name: GURUPRASHADH, Mobile: 7899305645, Payable: 4250.00
+[2025-10-12 17:07:02] ✅ Added Bill 04282 → bills.json now has 50 entries
+[2025-10-12 17:07:02] Running: "C:\Program Files\Git\cmd\git.exe" add -A
