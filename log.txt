@@ -1,4 +1,4 @@
-[2025-10-13 10:44:20] Copied latest BILL.pdf into repo
-[2025-10-13 10:44:20] ✅ Extracted Bill Data → No: 04289, Name: SEVERINE NAZARETH, Mobile: 9902053308, Payable: 2420.00
-[2025-10-13 10:44:20] ✅ Added Bill 04289 → bills.json now has 50 entries
-[2025-10-13 10:44:20] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-13 11:00:49] Copied latest BILL.pdf into repo
+[2025-10-13 11:00:49] ✅ Extracted Bill Data → No: 04290, Name: None, Mobile: None, Payable: 80.00
+[2025-10-13 11:00:49] ✅ Added Bill 04290 → bills.json now has 50 entries
+[2025-10-13 11:00:49] Running: "C:\Program Files\Git\cmd\git.exe" add -A
