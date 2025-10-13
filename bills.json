@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04239",
-      "name": "RESHAMA",
-      "mobile": "9611012561",
-      "payable": "740.00"
-    },
-    {
       "billNo": "04240",
       "name": "NON",
       "mobile": "6362483366",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "50.00"
+    },
+    {
+      "billNo": "04296",
+      "name": null,
+      "mobile": null,
+      "payable": "150.00"
     }
   ]
 }
