@@ -1,4 +1,3 @@
-[2025-10-14 14:32:27] Copied latest BILL.pdf into repo
-[2025-10-14 14:32:27] ✅ Extracted Bill Data → No: 04309, Name: ASHU, Mobile: 8762014548, Payable: 1000.00
-[2025-10-14 14:32:27] ✅ Added Bill 04309 → bills.json now has 50 entries
-[2025-10-14 14:32:27] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-14 14:33:14] Copied latest BILL.pdf into repo
+[2025-10-14 14:33:14] ⚠️ Bill number not found in PDF
+[2025-10-14 14:33:14] Running: "C:\Program Files\Git\cmd\git.exe" add -A
