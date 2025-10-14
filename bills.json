@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04275",
-      "name": "VIJYASREE\nKRISHANA BHAVANA",
-      "mobile": "9108912711",
-      "payable": "10500.00"
-    },
-    {
       "billNo": "04276",
       "name": "DEEPIKA",
       "mobile": "9535028629",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9632306016",
       "payable": "1050.00"
+    },
+    {
+      "billNo": "04326",
+      "name": null,
+      "mobile": null,
+      "payable": "200.00"
     }
   ]
 }
