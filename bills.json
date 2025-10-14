@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04255",
-      "name": "DHAWARK NATH",
-      "mobile": "7899172982",
-      "payable": "750.00"
-    },
-    {
       "billNo": "04256",
       "name": "NON",
       "mobile": "8310997360",
@@ -299,6 +293,12 @@
       "name": "SHASHIKALA",
       "mobile": "9740558405",
       "payable": "945.00"
+    },
+    {
+      "billNo": "04312",
+      "name": null,
+      "mobile": null,
+      "payable": "400.00"
     }
   ]
 }
