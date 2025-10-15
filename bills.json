@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04281",
-      "name": "RAGVENDHAR BHAT",
-      "mobile": "9901427845",
-      "payable": "6000.00"
-    },
-    {
       "billNo": "04282",
       "name": "GURUPRASHADH",
       "mobile": "7899305645",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "60.00"
+    },
+    {
+      "billNo": "04332",
+      "name": null,
+      "mobile": null,
+      "payable": "480.00"
     }
   ]
 }
