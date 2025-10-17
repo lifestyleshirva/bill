@@ -1,4 +1,4 @@
-[2025-10-17 11:32:03] Copied latest BILL.pdf into repo
-[2025-10-17 11:32:03] ✅ Extracted Bill Data → No: 04388, Name: GEETHA C ACHARYA, Mobile: 9686593533, Payable: 1300.00
-[2025-10-17 11:32:03] ✅ Added Bill 04388 → bills.json now has 50 entries
-[2025-10-17 11:32:03] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-17 11:34:50] Copied latest BILL.pdf into repo
+[2025-10-17 11:34:50] ✅ Extracted Bill Data → No: 04389, Name: None, Mobile: None, Payable: 290.00
+[2025-10-17 11:34:50] ✅ Added Bill 04389 → bills.json now has 50 entries
+[2025-10-17 11:34:50] Running: "C:\Program Files\Git\cmd\git.exe" add -A
