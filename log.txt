@@ -1,4 +1,3 @@
-[2025-10-17 18:47:02] Copied latest BILL.pdf into repo
-[2025-10-17 18:47:03] ✅ Extracted Bill Data → No: 04413, Name: DIVAKR, Mobile: 9972365885, Payable: 900.00
-[2025-10-17 18:47:03] ✅ Added Bill 04413 → bills.json now has 50 entries
-[2025-10-17 18:47:03] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-17 19:08:17] Copied latest BILL.pdf into repo
+[2025-10-17 19:08:17] ⚠️ Bill number not found in PDF
+[2025-10-17 19:08:17] Running: "C:\Program Files\Git\cmd\git.exe" add -A
