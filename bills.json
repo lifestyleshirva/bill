@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04379",
-      "name": "BASAVARJ",
-      "mobile": "9945663684",
-      "payable": "1603.00"
-    },
-    {
       "billNo": "04380",
       "name": "SANDESH",
       "mobile": "9611495194",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9972848008",
       "payable": "1700.00"
+    },
+    {
+      "billNo": "04435",
+      "name": null,
+      "mobile": null,
+      "payable": "340.00"
     }
   ]
 }
