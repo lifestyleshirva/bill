@@ -1,5 +1,4 @@
-[2025-10-18 17:24:55] Copied latest BILL.pdf into repo
-[2025-10-18 17:24:55] ✅ Extracted Bill Data → No: 04456, Name: USHA
-MUDARGADY, Mobile: 8971895981, Payable: 6206.00
-[2025-10-18 17:24:55] ✅ Added Bill 04456 → bills.json now has 50 entries
-[2025-10-18 17:24:55] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-18 17:31:28] Copied latest BILL.pdf into repo
+[2025-10-18 17:31:28] ✅ Extracted Bill Data → No: 04457, Name: RESHAMA, Mobile: 9686273634, Payable: 4816.00
+[2025-10-18 17:31:28] ✅ Added Bill 04457 → bills.json now has 50 entries
+[2025-10-18 17:31:28] Running: "C:\Program Files\Git\cmd\git.exe" add -A
