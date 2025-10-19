@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04513",
-      "name": "KUSHI",
-      "mobile": "6361959465",
-      "payable": "2799.93"
-    },
-    {
       "billNo": "04514",
       "name": "PREMA",
       "mobile": "8861252054",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "700.00"
+    },
+    {
+      "billNo": "04563",
+      "name": null,
+      "mobile": null,
+      "payable": "300.00"
     }
   ]
 }
