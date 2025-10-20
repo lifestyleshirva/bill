@@ -1,4 +1,3 @@
-[2025-10-20 15:55:39] Copied latest BILL.pdf into repo
-[2025-10-20 15:55:39] ✅ Extracted Bill Data → No: 04651, Name: PRAJOYTHI, Mobile: 9019235760, Payable: 530.00
-[2025-10-20 15:55:39] ✅ Added Bill 04651 → bills.json now has 50 entries
-[2025-10-20 15:55:39] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-20 16:06:32] Copied latest BILL.pdf into repo
+[2025-10-20 16:06:32] ⚠️ Bill number not found in PDF
+[2025-10-20 16:06:32] Running: "C:\Program Files\Git\cmd\git.exe" add -A
