@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04674",
-      "name": "NON",
-      "mobile": "7338514492",
-      "payable": "1250.00"
-    },
-    {
       "billNo": "04675",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "ANNAPA",
       "mobile": "7338499430",
       "payable": "1000.00"
+    },
+    {
+      "billNo": "04724",
+      "name": null,
+      "mobile": null,
+      "payable": "1050.00"
     }
   ]
 }
