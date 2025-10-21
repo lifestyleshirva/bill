@@ -1,3 +1,5 @@
-[2025-10-21 20:45:57] Copied latest BILL.pdf into repo
-[2025-10-21 20:45:57] ⚠️ Bill number not found in PDF
-[2025-10-21 20:45:57] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-21 20:48:20] Copied latest BILL.pdf into repo
+[2025-10-21 20:48:20] ✅ Extracted Bill Data → No: 04735, Name: PREM SAGAR
+NEPAL, Mobile: 9980048806, Payable: 4929.00
+[2025-10-21 20:48:20] ✅ Added Bill 04735 → bills.json now has 50 entries
+[2025-10-21 20:48:20] Running: "C:\Program Files\Git\cmd\git.exe" add -A
