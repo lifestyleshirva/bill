@@ -1,4 +1,3 @@
-[2025-10-23 18:31:31] Copied latest BILL.pdf into repo
-[2025-10-23 18:31:31] ✅ Extracted Bill Data → No: 04771, Name: SUPRITA, Mobile: 9731144190, Payable: 3500.00
-[2025-10-23 18:31:31] ✅ Added Bill 04771 → bills.json now has 7 entries
-[2025-10-23 18:31:31] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-23 18:38:44] Copied latest BILL.pdf into repo
+[2025-10-23 18:38:44] ⚠️ Bill number not found in PDF
+[2025-10-23 18:38:44] Running: "C:\Program Files\Git\cmd\git.exe" add -A
