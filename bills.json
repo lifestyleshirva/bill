@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04725",
-      "name": "SUMANGALLA",
-      "mobile": "6361821532",
-      "payable": "1850.00"
-    },
-    {
       "billNo": "04726",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "500.00"
+    },
+    {
+      "billNo": "04775",
+      "name": null,
+      "mobile": null,
+      "payable": "300.00"
     }
   ]
 }
