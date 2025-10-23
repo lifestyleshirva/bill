@@ -59,6 +59,12 @@
       "name": "MNJULA\nKATTEL FLOWR SHOP",
       "mobile": "9901822793",
       "payable": "2400.00"
+    },
+    {
+      "billNo": "04785",
+      "name": null,
+      "mobile": null,
+      "payable": "280.00"
     }
   ]
 }
