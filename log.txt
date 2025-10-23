@@ -1,4 +1,5 @@
-[2025-10-23 19:45:13] Copied latest BILL.pdf into repo
-[2025-10-23 19:45:13] ✅ Extracted Bill Data → No: 04783, Name: None, Mobile: None, Payable: 760.00
-[2025-10-23 19:45:13] ✅ Added Bill 04783 → bills.json now has 9 entries
-[2025-10-23 19:45:13] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-10-23 19:47:35] Copied latest BILL.pdf into repo
+[2025-10-23 19:47:36] ✅ Extracted Bill Data → No: 04784, Name: MNJULA
+KATTEL FLOWR SHOP, Mobile: 9901822793, Payable: 2400.00
+[2025-10-23 19:47:36] ✅ Added Bill 04784 → bills.json now has 10 entries
+[2025-10-23 19:47:36] Running: "C:\Program Files\Git\cmd\git.exe" add -A
