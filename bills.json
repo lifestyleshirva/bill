@@ -205,12 +205,6 @@
       "payable": "500.00"
     },
     {
-      "billNo": "04825",
-      "name": "JOSWIN\nSHIRVA",
-      "mobile": "8152937327",
-      "payable": "1600.00"
-    },
-    {
       "billNo": "04826",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "150.00"
+    },
+    {
+      "billNo": "04825",
+      "name": "JOSWIN\nSHIRVA",
+      "mobile": "8152937327",
+      "payable": "1600.00"
     }
   ]
 }
