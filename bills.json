@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04816",
-      "name": "PRATHIKSHA",
-      "mobile": "6364366992",
-      "payable": "770.00"
-    },
-    {
       "billNo": "04817",
       "name": "RUPA",
       "mobile": "7676582492",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "190.00"
+    },
+    {
+      "billNo": "04866",
+      "name": null,
+      "mobile": null,
+      "payable": "250.00"
     }
   ]
 }
