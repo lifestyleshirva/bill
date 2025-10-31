@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04867",
-      "name": "NIRMALA",
-      "mobile": "8722062898",
-      "payable": "0.00"
-    },
-    {
       "billNo": "04868",
       "name": "NON",
       "mobile": "9901541571",
@@ -299,6 +293,12 @@
       "name": "DHAMODAR",
       "mobile": "9880356894",
       "payable": "1849.97"
+    },
+    {
+      "billNo": "04917",
+      "name": null,
+      "mobile": null,
+      "payable": "110.00"
     }
   ]
 }
