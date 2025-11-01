@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04884",
-      "name": "NON",
-      "mobile": "9901541571",
-      "payable": "3400.00"
-    },
-    {
       "billNo": "04885",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "350.00"
+    },
+    {
+      "billNo": "04934",
+      "name": "SAVUJANYA",
+      "mobile": "7019115360",
+      "payable": "1550.00"
     }
   ]
 }
