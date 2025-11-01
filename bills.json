@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04883",
-      "name": "SUSHAMA",
-      "mobile": "9731418193",
-      "payable": "1950.00"
-    },
-    {
       "billNo": "04884",
       "name": "NON",
       "mobile": "9901541571",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "30.00"
+    },
+    {
+      "billNo": "04933",
+      "name": null,
+      "mobile": null,
+      "payable": "350.00"
     }
   ]
 }
