@@ -247,12 +247,6 @@
       "payable": "400.00"
     },
     {
-      "billNo": "04928",
-      "name": "NON",
-      "mobile": "9901541571",
-      "payable": "830.00"
-    },
-    {
       "billNo": "04929",
       "name": "NON",
       "mobile": "9901541571",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9845106909",
       "payable": "1000.00"
+    },
+    {
+      "billNo": "04928",
+      "name": "NON",
+      "mobile": "9901541571",
+      "payable": "830.10"
     }
   ]
 }
