@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "04970",
-      "name": "NION",
-      "mobile": "8722205039",
-      "payable": "526.00"
-    },
-    {
       "billNo": "04971",
       "name": "BHALLAPA",
       "mobile": "9632825361",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "100.00"
+    },
+    {
+      "billNo": "05020",
+      "name": null,
+      "mobile": null,
+      "payable": "350.00"
     }
   ]
 }
