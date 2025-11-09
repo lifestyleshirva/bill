@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05024",
-      "name": "SHEELPA",
-      "mobile": "7353187973",
-      "payable": "1002.00"
-    },
-    {
       "billNo": "05025",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "100.00"
+    },
+    {
+      "billNo": "05074",
+      "name": null,
+      "mobile": null,
+      "payable": "90.00"
     }
   ]
 }
