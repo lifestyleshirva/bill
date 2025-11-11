@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05082",
-      "name": "SNIF",
-      "mobile": "9916688861",
-      "payable": "5200.00"
-    },
-    {
       "billNo": "05083",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "300.00"
+    },
+    {
+      "billNo": "05132",
+      "name": null,
+      "mobile": null,
+      "payable": "170.00"
     }
   ]
 }
