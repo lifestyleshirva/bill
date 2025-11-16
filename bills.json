@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05177",
-      "name": "SHIVARAJ",
-      "mobile": "7019300236",
-      "payable": "1500.00"
-    },
-    {
       "billNo": "05178",
       "name": "SUDHEER\nU STYLE",
       "mobile": "9740936353",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9380646033",
       "payable": "290.00"
+    },
+    {
+      "billNo": "05228",
+      "name": null,
+      "mobile": null,
+      "payable": "150.00"
     }
   ]
 }
