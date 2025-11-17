@@ -289,16 +289,16 @@
       "payable": "954.00"
     },
     {
-      "billNo": "05250",
-      "name": "NON",
-      "mobile": "9945314856",
-      "payable": "2600.00"
-    },
-    {
       "billNo": "05247",
       "name": null,
       "mobile": null,
       "payable": "150.00"
+    },
+    {
+      "billNo": "05250",
+      "name": "NON",
+      "mobile": "9945314856",
+      "payable": "2600.00"
     }
   ]
 }
