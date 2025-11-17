@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05212",
-      "name": "MOHINI",
-      "mobile": "9741618753",
-      "payable": "1650.00"
-    },
-    {
       "billNo": "05213",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "NAVEEN",
       "mobile": "7829146009",
       "payable": "190.00"
+    },
+    {
+      "billNo": "05262",
+      "name": null,
+      "mobile": null,
+      "payable": "0.00"
     }
   ]
 }
