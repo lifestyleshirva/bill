@@ -271,12 +271,6 @@
       "payable": "0.00"
     },
     {
-      "billNo": "05248",
-      "name": "SHASHI",
-      "mobile": "9035410615",
-      "payable": "954.00"
-    },
-    {
       "billNo": "05251",
       "name": null,
       "mobile": "7259358792",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "150.00"
+    },
+    {
+      "billNo": "05248",
+      "name": "SHASHI",
+      "mobile": "9035410615",
+      "payable": "954.00"
     }
   ]
 }
