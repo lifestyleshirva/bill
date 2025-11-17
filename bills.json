@@ -277,12 +277,6 @@
       "payable": "150.00"
     },
     {
-      "billNo": "05251",
-      "name": null,
-      "mobile": "7259358792",
-      "payable": "1200.00"
-    },
-    {
       "billNo": "05250",
       "name": "NON",
       "mobile": "9945314856",
@@ -299,6 +293,12 @@
       "name": "SHASHI",
       "mobile": "9035410615",
       "payable": "954.00"
+    },
+    {
+      "billNo": "05251",
+      "name": null,
+      "mobile": "7259358792",
+      "payable": "1200.00"
     }
   ]
 }
