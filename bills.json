@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05223",
-      "name": null,
-      "mobile": null,
-      "payable": "40.00"
-    },
-    {
       "billNo": "05224",
       "name": "SUJITH\nCAR SARVICE",
       "mobile": "7026256371",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9108727227",
       "payable": "1150.00"
+    },
+    {
+      "billNo": "05273",
+      "name": "NON",
+      "mobile": "8546880375",
+      "payable": "250.00"
     }
   ]
 }
