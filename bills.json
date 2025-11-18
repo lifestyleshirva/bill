@@ -271,12 +271,6 @@
       "payable": "250.00"
     },
     {
-      "billNo": "05265",
-      "name": null,
-      "mobile": null,
-      "payable": "600.00"
-    },
-    {
       "billNo": "05267",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "1030.00"
+    },
+    {
+      "billNo": "05265",
+      "name": null,
+      "mobile": null,
+      "payable": "600.00"
     }
   ]
 }
