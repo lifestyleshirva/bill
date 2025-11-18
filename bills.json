@@ -265,12 +265,6 @@
       "payable": "0.00"
     },
     {
-      "billNo": "05263",
-      "name": null,
-      "mobile": null,
-      "payable": "300.00"
-    },
-    {
       "billNo": "05264",
       "name": "SUJATHA",
       "mobile": "8722158553",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "1300.00"
+    },
+    {
+      "billNo": "05263",
+      "name": null,
+      "mobile": null,
+      "payable": "300.00"
     }
   ]
 }
