@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05227",
-      "name": "NON",
-      "mobile": "9380646033",
-      "payable": "290.00"
-    },
-    {
       "billNo": "05228",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "PUSHAPALATHA",
       "mobile": "9591972136",
       "payable": "1366.00"
+    },
+    {
+      "billNo": "05277",
+      "name": "KUSUMA",
+      "mobile": "7348859967",
+      "payable": "1080.00"
     }
   ]
 }
