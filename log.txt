@@ -1,3 +1,4 @@
-[2025-11-20 12:18:35] Copied latest BILL.pdf into repo
-[2025-11-20 12:18:35] ⚠️ Bill number not found in PDF
-[2025-11-20 12:18:35] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-11-20 12:49:51] Copied latest BILL.pdf into repo
+[2025-11-20 12:49:51] ✅ Extracted Bill Data → No: 05300, Name: None, Mobile: None, Payable: 791.00
+[2025-11-20 12:49:51] ✅ Added Bill 05300 → bills.json now has 50 entries
+[2025-11-20 12:49:51] Running: "C:\Program Files\Git\cmd\git.exe" add -A
