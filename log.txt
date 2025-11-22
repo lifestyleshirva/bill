@@ -1,4 +1,4 @@
-[2025-11-22 10:47:06] Copied latest BILL.pdf into repo
-[2025-11-22 10:47:07] ✅ Extracted Bill Data → No: 05341, Name: NON, Mobile: 9741640721, Payable: 1000.00
-[2025-11-22 10:47:07] ✅ Added Bill 05341 → bills.json now has 50 entries
-[2025-11-22 10:47:07] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-11-22 11:38:53] Copied latest BILL.pdf into repo
+[2025-11-22 11:38:53] ✅ Extracted Bill Data → No: 05342, Name: NALINA SHIRVA, Mobile: 6363477910, Payable: 1200.00
+[2025-11-22 11:38:53] ✅ Added Bill 05342 → bills.json now has 50 entries
+[2025-11-22 11:38:53] Running: "C:\Program Files\Git\cmd\git.exe" add -A
