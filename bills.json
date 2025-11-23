@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05328",
-      "name": "SHIVAPARSHAD",
-      "mobile": "9164139428",
-      "payable": "1900.00"
-    },
-    {
       "billNo": "05329",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9348114223",
       "payable": "800.00"
+    },
+    {
+      "billNo": "05378",
+      "name": null,
+      "mobile": null,
+      "payable": "400.00"
     }
   ]
 }
