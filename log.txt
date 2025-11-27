@@ -1,4 +1,5 @@
-[2025-11-27 18:36:09] Copied latest BILL.pdf into repo
-[2025-11-27 18:36:09] ✅ Extracted Bill Data → No: 05477, Name: None, Mobile: None, Payable: 400.00
-[2025-11-27 18:36:09] ✅ Added Bill 05477 → bills.json now has 50 entries
-[2025-11-27 18:36:09] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-11-27 18:36:22] Copied latest BILL.pdf into repo
+[2025-11-27 18:36:22] ✅ Extracted Bill Data → No: 05478, Name: SHAKUNTHALA
+TILER SHOP FOR FRNT, Mobile: 9901143145, Payable: 900.00
+[2025-11-27 18:36:22] ✅ Added Bill 05478 → bills.json now has 50 entries
+[2025-11-27 18:36:22] Running: "C:\Program Files\Git\cmd\git.exe" add -A
