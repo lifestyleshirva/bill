@@ -1,4 +1,4 @@
-[2025-11-28 18:59:53] Copied latest BILL.pdf into repo
-[2025-11-28 18:59:53] ✅ Extracted Bill Data → No: 05507, Name: PAVAN STORE, Mobile: 9902189780, Payable: 1900.00
-[2025-11-28 18:59:53] ✅ Added Bill 05507 → bills.json now has 50 entries
-[2025-11-28 18:59:53] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-11-28 19:01:46] Copied latest BILL.pdf into repo
+[2025-11-28 19:01:46] ✅ Extracted Bill Data → No: 05508, Name: None, Mobile: None, Payable: 4073.00
+[2025-11-28 19:01:46] ✅ Added Bill 05508 → bills.json now has 50 entries
+[2025-11-28 19:01:46] Running: "C:\Program Files\Git\cmd\git.exe" add -A
