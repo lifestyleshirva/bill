@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05500",
-      "name": "GANESH\nGAS",
-      "mobile": "9731791331",
-      "payable": "1200.00"
-    },
-    {
       "billNo": "05501",
       "name": "NON",
       "mobile": "7406156327",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "9731575082",
       "payable": "1800.00"
+    },
+    {
+      "billNo": "05552",
+      "name": null,
+      "mobile": null,
+      "payable": "330.00"
     }
   ]
 }
