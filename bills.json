@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05502",
-      "name": null,
-      "mobile": null,
-      "payable": "601.00"
-    },
-    {
       "billNo": "05503",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "470.00"
+    },
+    {
+      "billNo": "05554",
+      "name": null,
+      "mobile": null,
+      "payable": "240.00"
     }
   ]
 }
