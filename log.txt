@@ -1,5 +1,4 @@
-[2025-12-01 15:09:30] Copied latest BILL.pdf into repo
-[2025-12-01 15:09:30] ✅ Extracted Bill Data → No: 05561, Name: KIRAN SOOD
-SOODA, Mobile: 9739044074, Payable: 1922.00
-[2025-12-01 15:09:30] ✅ Added Bill 05561 → bills.json now has 50 entries
-[2025-12-01 15:09:30] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-01 16:54:57] Copied latest BILL.pdf into repo
+[2025-12-01 16:54:58] ✅ Extracted Bill Data → No: 05562, Name: NON, Mobile: 7022575955, Payable: 160.00
+[2025-12-01 16:54:58] ✅ Added Bill 05562 → bills.json now has 50 entries
+[2025-12-01 16:54:58] Running: "C:\Program Files\Git\cmd\git.exe" add -A
