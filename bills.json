@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05522",
-      "name": null,
-      "mobile": null,
-      "payable": "750.00"
-    },
-    {
       "billNo": "05523",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "2400.00"
+    },
+    {
+      "billNo": "05572",
+      "name": "KRISHANA BHAVAN HOTEL",
+      "mobile": "8970994423",
+      "payable": "21000.00"
     }
   ]
 }

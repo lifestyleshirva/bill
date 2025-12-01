@@ -1,4 +1,4 @@
-[2025-12-01 20:42:40] Copied latest BILL.pdf into repo
-[2025-12-01 20:42:41] ✅ Extracted Bill Data → No: 05571, Name: None, Mobile: None, Payable: 2400.00
-[2025-12-01 20:42:41] ✅ Added Bill 05571 → bills.json now has 50 entries
-[2025-12-01 20:42:41] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-01 20:54:49] Copied latest BILL.pdf into repo
+[2025-12-01 20:54:49] ✅ Extracted Bill Data → No: 05572, Name: KRISHANA BHAVAN HOTEL, Mobile: 8970994423, Payable: 21000.00
+[2025-12-01 20:54:49] ✅ Added Bill 05572 → bills.json now has 50 entries
+[2025-12-01 20:54:49] Running: "C:\Program Files\Git\cmd\git.exe" add -A
