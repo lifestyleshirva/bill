@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05560",
-      "name": null,
-      "mobile": null,
-      "payable": "280.00"
-    },
-    {
       "billNo": "05561",
       "name": "KIRAN SOOD\nSOODA",
       "mobile": "9739044074",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "500.00"
+    },
+    {
+      "billNo": "05610",
+      "name": null,
+      "mobile": null,
+      "payable": "250.00"
     }
   ]
 }
