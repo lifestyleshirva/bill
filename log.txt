@@ -1,4 +1,4 @@
-[2025-12-06 13:48:25] Copied latest BILL.pdf into repo
-[2025-12-06 13:48:26] ✅ Extracted Bill Data → No: 05657, Name: None, Mobile: None, Payable: 980.00
-[2025-12-06 13:48:26] ✅ Added Bill 05657 → bills.json now has 50 entries
-[2025-12-06 13:48:26] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-06 14:43:13] Copied latest BILL.pdf into repo
+[2025-12-06 14:43:13] ✅ Extracted Bill Data → No: 05658, Name: CHANDHARA SHEKARA, Mobile: 9449475711, Payable: 750.00
+[2025-12-06 14:43:13] ✅ Added Bill 05658 → bills.json now has 50 entries
+[2025-12-06 14:43:13] Running: "C:\Program Files\Git\cmd\git.exe" add -A

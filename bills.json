@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05606",
-      "name": null,
-      "mobile": null,
-      "payable": "280.00"
-    },
-    {
       "billNo": "05607",
       "name": "METILDA",
       "mobile": "9902399590",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "980.00"
+    },
+    {
+      "billNo": "05658",
+      "name": "CHANDHARA SHEKARA",
+      "mobile": "9449475711",
+      "payable": "750.00"
     }
   ]
 }
