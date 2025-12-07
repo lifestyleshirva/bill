@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05619",
-      "name": null,
-      "mobile": null,
-      "payable": "850.00"
-    },
-    {
       "billNo": "05620",
       "name": null,
       "mobile": null,
@@ -299,6 +293,12 @@
       "name": "ARIEF",
       "mobile": "9591785883",
       "payable": "2206.00"
+    },
+    {
+      "billNo": "05671",
+      "name": null,
+      "mobile": null,
+      "payable": "60.00"
     }
   ]
 }
