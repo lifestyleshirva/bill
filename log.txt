@@ -1,4 +1,4 @@
-[2025-12-09 18:46:48] Copied latest BILL.pdf into repo
-[2025-12-09 18:46:49] ✅ Extracted Bill Data → No: 05717, Name: RAJESH, Mobile: 9731092071, Payable: 1700.00
-[2025-12-09 18:46:49] ✅ Added Bill 05717 → bills.json now has 50 entries
-[2025-12-09 18:46:49] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-09 19:01:52] Copied latest BILL.pdf into repo
+[2025-12-09 19:01:52] ✅ Extracted Bill Data → No: 05718, Name: RANJAN, Mobile: 8105653573, Payable: 2000.00
+[2025-12-09 19:01:52] ✅ Added Bill 05718 → bills.json now has 50 entries
+[2025-12-09 19:01:52] Running: "C:\Program Files\Git\cmd\git.exe" add -A
