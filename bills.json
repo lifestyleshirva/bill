@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05666",
-      "name": "GANESH PADHE",
-      "mobile": "7353762746",
-      "payable": "550.00"
-    },
-    {
       "billNo": "05667",
       "name": "GANESH FASTFOODS",
       "mobile": "7353762746",
@@ -299,6 +293,12 @@
       "name": "NON",
       "mobile": "7483170824",
       "payable": "1350.00"
+    },
+    {
+      "billNo": "05716",
+      "name": null,
+      "mobile": null,
+      "payable": "350.00"
     }
   ]
 }
