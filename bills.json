@@ -1,12 +1,6 @@
 {
   "bills": [
     {
-      "billNo": "05692",
-      "name": "NALINA SHIRVA",
-      "mobile": "6363477910",
-      "payable": "2400.00"
-    },
-    {
       "billNo": "05693",
       "name": "LATHA",
       "mobile": "7795707488",
@@ -299,6 +293,12 @@
       "name": null,
       "mobile": null,
       "payable": "3400.00"
+    },
+    {
+      "billNo": "05742",
+      "name": null,
+      "mobile": null,
+      "payable": "150.00"
     }
   ]
 }
