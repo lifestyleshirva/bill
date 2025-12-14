@@ -1,4 +1,4 @@
-[2025-12-14 18:28:19] Copied latest BILL.pdf into repo
-[2025-12-14 18:28:19] ✅ Extracted Bill Data → No: 05829, Name: RESHAMA, Mobile: 9731514772, Payable: 1050.00
-[2025-12-14 18:28:19] ✅ Added Bill 05829 → bills.json now has 50 entries
-[2025-12-14 18:28:19] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-14 18:33:46] Copied latest BILL.pdf into repo
+[2025-12-14 18:33:46] ✅ Extracted Bill Data → No: 05830, Name: NON, Mobile: 9900272813, Payable: 1000.00
+[2025-12-14 18:33:46] ✅ Added Bill 05830 → bills.json now has 50 entries
+[2025-12-14 18:33:46] Running: "C:\Program Files\Git\cmd\git.exe" add -A
