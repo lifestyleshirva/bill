@@ -1,4 +1,4 @@
-[2025-12-18 12:01:05] Copied latest BILL.pdf into repo
-[2025-12-18 12:01:05] ✅ Extracted Bill Data → No: 05900, Name: SRINATH HEGADAY, Mobile: 9164534440, Payable: 1500.00
-[2025-12-18 12:01:05] ✅ Added Bill 05900 → bills.json now has 50 entries
-[2025-12-18 12:01:05] Running: "C:\Program Files\Git\cmd\git.exe" add -A
+[2025-12-18 12:27:11] Copied latest BILL.pdf into repo
+[2025-12-18 12:27:11] ✅ Extracted Bill Data → No: 05901, Name: None, Mobile: None, Payable: 560.00
+[2025-12-18 12:27:11] ✅ Added Bill 05901 → bills.json now has 50 entries
+[2025-12-18 12:27:11] Running: "C:\Program Files\Git\cmd\git.exe" add -A
